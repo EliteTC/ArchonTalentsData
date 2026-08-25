@@ -1,0 +1,17 @@
+## Interface: 120100, 120007, 120005
+## Title: |cff3abdf7Archon|rTalentsData
+## Notes: Daily talent builds from parses.gg and archon.gg, via TalentLoadoutsEx presets.
+## Author: EliteTC
+## Version: 2026.08.25
+## Category-enUS: Talents
+## X-Source-Code: https://github.com/EliteTC/ArchonTalentsData
+
+# Data files must load before Api.lua: each one writes its table onto the private addon
+# table, and Api.lua captures that table when it builds the public API.
+src\Data\ParsesMythicDB.lua
+src\Data\ParsesLfrRaidDB.lua
+src\Data\ParsesNormalRaidDB.lua
+src\Data\ParsesHeroicRaidDB.lua
+src\Data\ParsesMythicRaidDB.lua
+
+src\Api\Api.lua

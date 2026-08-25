@@ -1,0 +1,10 @@
+{
+  "source": "both",
+  "builds": 1376,
+  "perSource": {
+    "parses.gg": 1057,
+    "archon.gg": 319
+  },
+  "gameBuild": "12.1.0.69382",
+  "generatedAt": "2026-08-25 08:21:56"
+}

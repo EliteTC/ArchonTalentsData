@@ -1,0 +1,3 @@
+# The daily job regenerates these on Linux; pin LF so a Windows checkout does not
+# turn every data file into a whole-file diff on the next CI run.
+* text=auto eol=lf
