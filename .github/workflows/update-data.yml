@@ -2,10 +2,15 @@ name: Update talent data
 
 on:
   schedule:
-    # 05:20 UTC daily. archon's own aggregates settle overnight, so an early-morning run
-    # picks up a full previous day.
+    # 05:20 UTC daily. Both sources' aggregates settle overnight, so an early-morning run picks
+    # up a full previous day. GitHub delays scheduled runs during peak times; that is fine here.
     - cron: '20 5 * * *'
   workflow_dispatch:
+    inputs:
+      force_release:
+        description: 'Publish a release even if the data did not change (use for the first one)'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -42,31 +47,44 @@ jobs:
       - name: Detect changes
         id: diff
         run: |
+          # The scraper leaves a file untouched when only its timestamp would differ, so a diff
+          # here means a talent string actually moved.
           if git diff --quiet -- src/Data; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
-            echo "No data changes; skipping release."
+            echo "No talent data changed; nothing to publish."
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
+            git diff --stat -- src/Data
           fi
 
       - name: Commit
         if: steps.diff.outputs.changed == 'true'
-        id: commit
         run: |
           VERSION="$(date -u +%Y.%m.%d)"
           sed -i "s/^## Version:.*/## Version: ${VERSION}/" ArchonTalentsData.toc
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A src/Data tools/last-run.json ArchonTalentsData.toc
-          git commit -m "data: archon.gg builds for ${VERSION}"
+          git commit -m "data: talent builds for ${VERSION}"
           git push
+
+      - name: Read shipped version
+        id: version
+        run: |
+          # Read after any bump, so the release tag always matches the version players see in
+          # their addon list — including a forced release on a day with no data change.
+          VERSION="$(sed -n 's/^## Version: *//p' ArchonTalentsData.toc | head -1)"
+          if [ -z "$VERSION" ]; then
+            echo "Could not read '## Version' from ArchonTalentsData.toc" >&2
+            exit 1
+          fi
           echo "version=${VERSION}" >> "$GITHUB_OUTPUT"
 
       - name: Package addon
-        if: steps.diff.outputs.changed == 'true'
+        if: steps.diff.outputs.changed == 'true' || github.event.inputs.force_release == 'true'
         run: |
-          # WowUp installs the folder found at the root of the zip, so the addon files must sit
-          # under a directory named exactly as the addon. Build tooling stays out of the zip.
+          # WowUp installs the folder it finds at the root of the zip, so the addon files must
+          # sit under a directory named exactly as the addon. Build tooling stays out of it.
           mkdir -p dist/ArchonTalentsData
           cp -r src ArchonTalentsData.toc dist/ArchonTalentsData/
           cd dist
@@ -74,17 +92,17 @@ jobs:
           unzip -l ArchonTalentsData.zip
 
       - name: Release
-        if: steps.diff.outputs.changed == 'true'
+        if: steps.diff.outputs.changed == 'true' || github.event.inputs.force_release == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          VERSION="${{ steps.commit.outputs.version }}"
-          # A manual re-run on the same day reuses the day's tag rather than failing on it.
+          VERSION="${{ steps.version.outputs.version }}"
+          # Re-running on the same day reuses that day's tag rather than failing on it.
           if gh release view "v${VERSION}" >/dev/null 2>&1; then
             gh release upload "v${VERSION}" dist/ArchonTalentsData.zip --clobber
           else
             gh release create "v${VERSION}" dist/ArchonTalentsData.zip \
               --title "v${VERSION}" \
-              --notes "Talent builds scraped from archon.gg on ${VERSION}." \
+              --notes "Talent builds from parses.gg and archon.gg, generated ${VERSION}." \
               --latest
           fi

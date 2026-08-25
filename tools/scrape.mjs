@@ -80,6 +80,9 @@ function printHelp() {
 
 const luaEscape = (s) => String(s).replace(/\\/g, '\\\\').replace(/"/g, '\\"');
 
+/** Blanks the `updated` line so two renders can be compared on content alone. */
+const stripStamp = (text) => text.replace(/^\tupdated = "[^"]*",$/m, '\tupdated = "",');
+
 function utcStamp(d) {
 	const p = (n) => String(n).padStart(2, '0');
 	return `${d.getUTCFullYear()}-${p(d.getUTCMonth() + 1)}-${p(d.getUTCDate())} `
@@ -257,11 +260,30 @@ async function main() {
 
 	const stamp = utcStamp(new Date());
 	mkdirSync(DATA_DIR, { recursive: true });
+
+	let changed = 0;
 	for (const cat of CATEGORIES) {
-		writeFileSync(join(DATA_DIR, `${cat.db}.lua`),
-			renderLua(cat.db, trees.get(cat.category), stamp), 'utf8');
+		const file = join(DATA_DIR, `${cat.db}.lua`);
+		const next = renderLua(cat.db, trees.get(cat.category), stamp);
+
+		// The timestamp alone changes on every run, so writing unconditionally would leave a
+		// diff every day and make the workflow cut a release even when no talent string moved.
+		// Compare with the stamp masked out and leave the file alone when nothing else differs;
+		// `updated` then describes when the data last actually changed, not when it was checked.
+		let current = null;
+		try {
+			current = readFileSync(file, 'utf8');
+		} catch { /* new file */ }
+
+		if (current !== null && stripStamp(current) === stripStamp(next)) continue;
+
+		writeFileSync(file, next, 'utf8');
+		changed++;
 	}
-	console.log(`\nwrote ${CATEGORIES.length} files to ${DATA_DIR}`);
+
+	console.log(changed === 0
+		? '\nno content changes; data files left untouched'
+		: `\nwrote ${changed} of ${CATEGORIES.length} files to ${DATA_DIR}`);
 
 	if (isFullRun) {
 		writeFileSync(STATE_FILE, JSON.stringify({
