@@ -83,13 +83,22 @@ jobs:
       - name: Package addon
         if: steps.diff.outputs.changed == 'true' || github.event.inputs.force_release == 'true'
         run: |
-          # WowUp installs the folder it finds at the root of the zip, so the addon files must
+          VERSION="${{ steps.version.outputs.version }}"
+          ZIP="ArchonTalentsData-v${VERSION}.zip"
+
+          # Managers install the folder they find at the root of the zip, so the addon files must
           # sit under a directory named exactly as the addon. Build tooling stays out of it.
           mkdir -p dist/ArchonTalentsData
           cp -r src ArchonTalentsData.toc dist/ArchonTalentsData/
-          cd dist
-          zip -qr ArchonTalentsData.zip ArchonTalentsData
-          unzip -l ArchonTalentsData.zip
+          ( cd dist && zip -qr "$ZIP" ArchonTalentsData && unzip -l "$ZIP" )
+
+          # release.json tells WowUp which game flavor the zip is for. Without it WowUp falls
+          # back to parsing the .toc inside the zip and fails on the comma-delimited
+          # `## Interface` line, surfacing only "Addon installation failed".
+          node tools/release-json.mjs "$ZIP" > dist/release.json
+          cat dist/release.json
+
+          echo "zip=$ZIP" >> "$GITHUB_ENV"
 
       - name: Release
         if: steps.diff.outputs.changed == 'true' || github.event.inputs.force_release == 'true'
@@ -99,9 +108,20 @@ jobs:
           VERSION="${{ steps.version.outputs.version }}"
           # Re-running on the same day reuses that day's tag rather than failing on it.
           if gh release view "v${VERSION}" >/dev/null 2>&1; then
-            gh release upload "v${VERSION}" dist/ArchonTalentsData.zip --clobber
+            # --clobber only replaces same-named assets, so a zip left by an earlier run under a
+            # different name would linger and a manager could resolve to it. Drop anything that
+            # is not part of this upload.
+            gh release view "v${VERSION}" --json assets --jq '.assets[].name' \
+              | while read -r asset; do
+                  case "$asset" in
+                    "$zip"|release.json) ;;
+                    *) echo "removing stale asset: $asset"
+                       gh release delete-asset "v${VERSION}" "$asset" -y ;;
+                  esac
+                done
+            gh release upload "v${VERSION}" "dist/${zip}" dist/release.json --clobber
           else
-            gh release create "v${VERSION}" dist/ArchonTalentsData.zip \
+            gh release create "v${VERSION}" "dist/${zip}" dist/release.json \
               --title "v${VERSION}" \
               --notes "Talent builds from parses.gg and archon.gg, generated ${VERSION}." \
               --latest
