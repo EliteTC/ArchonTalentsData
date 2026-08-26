@@ -2,7 +2,7 @@
 ## Title: |cff3abdf7Archon|rTalentsData
 ## Notes: Daily talent builds from parses.gg and archon.gg, via TalentLoadoutsEx presets.
 ## Author: EliteTC
-## Version: 2026.08.25
+## Version: 2026.08.26
 ## Category-enUS: Talents
 ## X-Source-Code: https://github.com/EliteTC/ArchonTalentsData
 
