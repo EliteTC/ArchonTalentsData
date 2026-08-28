@@ -33,7 +33,10 @@ const DATA_DIR = join(HERE, '..', 'src', 'Data');
 const STATE_FILE = join(HERE, 'last-run.json');
 
 const MODES = ['both', 'parses', 'archon'];
-const DEFAULT_MODE = 'both';
+// archon.gg began serving a "Human Verification" interstitial instead of build pages on
+// 2026-08-27, so `both` silently degraded to parses-only while still making ~621 useless
+// requests per run. The adapter is kept for if that ever lifts; the schedule no longer uses it.
+const DEFAULT_MODE = 'parses';
 
 const HTTP = {
 	userAgent: 'ArchonTalentsData/1.0 (WoW addon data generator; '
@@ -194,6 +197,14 @@ async function main() {
 
 	const { entries, warnings, meta, perSource } = await collectAll(opts);
 
+	// Report warnings before any early exit. Bailing out first hid the "no __NEXT_DATA__" warnings
+	// that would have named archon's interstitial immediately instead of leaving a silent zero.
+	if (warnings.length) {
+		console.warn(`\n${warnings.length} warning(s):`);
+		for (const w of warnings.slice(0, 25)) console.warn(`  ${w}`);
+		if (warnings.length > 25) console.warn(`  ... and ${warnings.length - 25} more`);
+	}
+
 	if (opts.specs.length && entries.length === 0) {
 		console.error(`\nERROR: no builds for ${JSON.stringify(opts.specs)} — check the spec slug.`);
 		process.exit(2);
@@ -222,12 +233,6 @@ async function main() {
 		console.log(`  ${cat.category.padEnd(12)} ${String(n).padStart(4)} -> ${cat.db}.lua`);
 	}
 
-	if (warnings.length) {
-		console.warn(`\n${warnings.length} warning(s):`);
-		for (const w of warnings.slice(0, 25)) console.warn(`  ${w}`);
-		if (warnings.length > 25) console.warn(`  ... and ${warnings.length - 25} more`);
-	}
-
 	if (entries.length === 0) {
 		console.error('\nERROR: no builds collected at all — refusing to write.');
 		process.exit(1);
@@ -254,6 +259,18 @@ async function main() {
 					+ `(${MIN_RATIO_OF_PREVIOUS * 100}% of the previous ${previous.builds}). `
 					+ 'a source probably changed — refusing to overwrite good data.');
 				process.exit(1);
+			}
+
+			// A total-only check is not enough: when archon started returning an interstitial it
+			// contributed 0 instead of 319, while parses.gg happened to grow enough that the
+			// total still cleared the floor by 44 builds. Hold each source to its own history.
+			for (const [src, was] of Object.entries(previous.perSource ?? {})) {
+				const now = perSource[src] ?? 0;
+				if (was > 0 && now < Math.floor(was * MIN_RATIO_OF_PREVIOUS)) {
+					console.error(`\nERROR: ${src} returned ${now} builds, previously ${was}. `
+						+ 'that source is degraded or blocked — refusing to overwrite good data.');
+					process.exit(1);
+				}
 			}
 		}
 	}

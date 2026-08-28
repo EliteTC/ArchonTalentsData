@@ -30,7 +30,7 @@ jobs:
           node-version: '22'
 
       - name: Scrape parses.gg + archon.gg
-        run: node tools/scrape.mjs --source both --concurrency 6
+        run: node tools/scrape.mjs --source parses
 
       - name: Check generated Lua parses
         run: |

@@ -21,14 +21,35 @@ This replaces `PeaversTalentsData`, which stopped working:
 
 ## Install
 
-**With WowUp** (this is how you get the daily updates):
+**Recommended — the updater script.** Download
+[`tools/Update-ArchonTalentsData.ps1`](tools/Update-ArchonTalentsData.ps1) and run it in
+PowerShell:
 
-1. WowUp → Get Addons → Install from URL
-2. Paste `https://github.com/EliteTC/ArchonTalentsData`
+```powershell
+.\Update-ArchonTalentsData.ps1            # install or update once
+.\Update-ArchonTalentsData.ps1 -Schedule  # ...and every day at 09:00
+.\Update-ArchonTalentsData.ps1 -Unschedule
+```
+
+It finds your AddOns folder, installs the latest release, and no-ops when already current. No
+dependencies, no GitHub account, one anonymous API call per run.
+
+**Why not WowUp?** Its *install* works, but its *update* path is broken for GitHub sources: it
+fetches the release asset from `api.github.com/.../releases/assets/<id>` without an
+`Accept: application/octet-stream` header, so GitHub returns ~1.8 KB of asset metadata JSON
+instead of the zip and the install fails with *"End of central directory record signature not
+found"*. The same URL returns the correct zip with that header, and
+`browser_download_url` — which the script uses — needs no header at all. Nothing about this
+addon's releases is unusual; the bug affects WowUp's GitHub provider generally.
 
 **Manually:** download the zip from
 [Releases](https://github.com/EliteTC/ArchonTalentsData/releases/latest) and extract it into
 `World of Warcraft/_retail_/Interface/AddOns/`.
+
+> **Do not keep a git clone inside `Interface/AddOns`.** Addon managers replace that folder on
+> update, and their backup/restore does not preserve `.git` — WowUp silently destroyed a working
+> copy here exactly that way. Clone somewhere else and let the updater own the AddOns folder.
+> The script refuses to overwrite a folder containing `.git` unless you pass `-Force`.
 
 > **Remove `PeaversTalentsData` if you have it.** Both addons define the same global, and
 > `PeaversTalentsData` sorts second alphabetically, so it loads last and its `GetBuilds` wins —
@@ -41,34 +62,26 @@ is what feeds them. **Raid LFR is off by default in TLX**, so tick it if you wan
 
 ## Data sources
 
-Neither source alone is complete, so the default run uses both.
+**parses.gg only.** Its `/api/builds/export` endpoint is documented, needs no auth, and returns
+a whole difficulty per request — five requests for the entire addon. Their stated policy is that
+the data is "free for anyone to read, download whole, or build against."
 
-| | parses.gg | archon.gg |
-| --- | --- | --- |
-| Access | Documented public API, no auth | Undocumented `__NEXT_DATA__` in page HTML |
-| Requests per run | 5 | ~1,560 for a full sweep |
-| Log pool | Only what its own users upload | All of Warcraft Logs (operated by RPGLogs) |
-| Mythic+ | Complete | Complete |
-| Raid LFR | Only source with any | Not served |
-| Raid Heroic | Thin | Complete |
-| Raid Mythic | No current-tier data at all | Complete |
+An archon.gg adapter exists in `tools/sources/` and is **not used**. archon was worth having for
+a while: it is run by RPGLogs, so it sees all of Warcraft Logs rather than only what one site's
+users upload, and it supplied Heroic and Mythic raid builds parses.gg lacked. On 2026-08-27 it
+began returning a 2.5 KB "Human Verification" interstitial instead of build pages. That is a
+deliberate access control, and their operator had previously asked an addon author to stop using
+their data, so the adapter is left unused rather than worked around.
 
-`--source both` (the default) runs parses.gg first, then asks archon **only** for the
-combinations parses.gg could not supply. That produces the union of the two while cutting the
-archon request count by roughly 60%, and keeps parses.gg authoritative wherever it has data.
+The practical cost: **Raid Mythic is empty**, and Heroic depends on parses.gg's upload volume
+(311 builds as of 2026-08-28, up from 191 three days earlier as the tier progresses).
 
-Two caveats worth knowing:
-
-- parses.gg tier codes are scoped by *difficulty*, not by season, so its responses still carry
-  last season's dungeons and previous raids. `tools/maps.mjs` pins the current Warcraft Logs
-  encounter IDs and everything outside that allow-list is dropped. The whole-difficulty
-  aggregate row is computed server-side across all of it, so it is discarded for any spec with
-  no current-season encounters behind it — otherwise Mythic raid would ship builds derived
-  purely from Dragonflight and War Within clears.
-- archon's operator has asked at least one addon author to stop using their data, even though
-  `robots.txt` is fully permissive and the site publishes no terms. That is why the hybrid uses
-  archon only for what parses.gg cannot answer. `--source parses` avoids it entirely, at the
-  cost of Heroic and Mythic raid coverage.
+One quirk to know about: parses.gg tier codes are scoped by *difficulty*, not by season, so its
+responses still carry last season's dungeons and previous raids. `tools/maps.mjs` pins the
+current Warcraft Logs encounter IDs and everything outside that allow-list is dropped. The
+whole-difficulty aggregate row is computed server-side across all of it, so it is discarded for
+any spec with no current-season encounters behind it — otherwise Mythic raid would ship builds
+derived purely from Dragonflight and War Within clears.
 
 ## What you get
 
@@ -84,20 +97,24 @@ yet. That is expected, not a bug.
 
 ```sh
 node tools/scrape.mjs --spec frost/death-knight --dry-run   # quick check, writes nothing
-node tools/scrape.mjs                                       # full hybrid run
-node tools/scrape.mjs --source parses                       # parses.gg alone, 5 requests
-node tools/scrape.mjs --source archon                       # archon alone, full sweep
+node tools/scrape.mjs                                       # full run (parses.gg, 5 requests)
+node tools/scrape.mjs --source both                         # also gap-fill from archon (blocked)
 node tools/verify.mjs                                       # structural checks on the output
 ```
 
 Plain Node, no dependencies. `.github/workflows/update-data.yml` runs it daily, verifies the
-generated Lua with `luac5.1 -p` and `tools/verify.mjs`, commits only when something changed, and
-publishes a release zip.
+generated Lua with `luac5.1 -p` and `tools/verify.mjs`, commits only when the talent data
+actually changed, and publishes a release zip.
 
-The scraper refuses to write if a run yields fewer than 80% of the builds the previous run
-produced (tracked in `tools/last-run.json`, compared only against the same `--source` mode).
-Both sources expose internal shapes that can change without notice, so this turns that into a
-loud CI failure rather than an addon that silently shows nothing.
+The scraper refuses to write when a run looks degraded, compared only against the same
+`--source` mode (tracked in `tools/last-run.json`):
+
+- the total drops below 80% of the previous run, **and**
+- any individual source drops below 80% of what it contributed last time.
+
+The per-source check exists because a total-only check missed archon going to zero: it
+contributed 0 instead of 319 while parses.gg grew enough that the total still cleared the floor
+by 44 builds, so a whole source died silently.
 
 ## Season maintenance
 

@@ -1,4 +1,10 @@
-// archon.gg source adapter.
+// archon.gg source adapter. NOT USED BY THE SCHEDULED RUN.
+//
+// As of 2026-08-27 archon serves a 2.5 KB "Human Verification" interstitial
+// (<meta name="robots" content="noindex, nofollow">) in place of build pages, so every request
+// here returns HTTP 200 with no __NEXT_DATA__ and the adapter yields nothing. That is a
+// deliberate access control, and their operator had already asked an addon author to stop using
+// their data, so this is left unused rather than worked around. Kept only in case that lifts.
 //
 // archon is operated by RPGLogs, so it sees the whole Warcraft Logs dataset rather than only
 // what one site's users upload. That is why it has current-tier Heroic and Mythic raid builds
