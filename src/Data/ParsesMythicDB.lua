@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.ParsesMythicDB = addonTable.ParsesMythicDB or {}
 
 local talentData = {
-	updated = "2026-08-29 11:41:46",
+	updated = "2026-08-30 10:31:28",
 
 	[1] = {
 		specs = {
@@ -13,7 +13,7 @@ local talentData = {
 				},
 				[1] = {
 					label = "Kings' Rest",
-					talentString = "CcEAAAAAAAAAAAAAAAAAAAAAAgZmZmFzYmZGAAAghphxYmZzMzMzYmxMDAAAAgxyMDMhxy2AbgBMDTgZwGYmhhBzyMbDwMDAmhBA",
+					talentString = "CcEAAAAAAAAAAAAAAAAAAAAAAgZmZmFzYmZGAAAghphZGmZzMzMzYmxMDAAAAgxyMDMhxy2ALgBMDTgZwGYmhhBzyMbDwMDAmhBA",
 				},
 				[2] = {
 					label = "Temple of Sethraliss",
@@ -29,7 +29,7 @@ local talentData = {
 				},
 				[5] = {
 					label = "Voidscar Arena",
-					talentString = "CcEAAAAAAAAAAAAAAAAAAAAAAgZmZmFzYmZGAAAghphxwMbLzMzMjZGzMAAAAAGLzMwEGLbDsAGwMMBmBbgZGGGMLzsNAzMAYGGA",
+					talentString = "CcEAAAAAAAAAAAAAAAAAAAAAAgZmZmFzYmZGAAAghphxYmZzMzMzYmxMDAAAAgxyMDMhxy2AbgBMDTgZwGYmhhBzyMbDwMDAmhBA",
 				},
 				[6] = {
 					label = "Den of Nalorakk",
@@ -347,7 +347,7 @@ local talentData = {
 				},
 				[8] = {
 					label = "Altar of Fangs",
-					talentString = "C8PAAAAAAAAAAAAAAAAAAAAAAMWgBmxoxyAYGw2MzMzMzMbzAAAAAAYGzMzYbGjZMDbjpZAAAAGAgltZGLDzM8AjxAwM2AjhZ2MAA",
+					talentString = "C8PAAAAAAAAAAAAAAAAAAAAAAMWgBmxoxyAYGw2MzMzMjZbeAAAAAAAzYmZGbzYMjZYZMNDAAAwAAjllZGLYmZ8AjxAwM2AjxMzmBA",
 				},
 			},
 		},
@@ -658,7 +658,7 @@ local talentData = {
 				},
 				[6] = {
 					label = "Den of Nalorakk",
-					talentString = "CsPAAAAAAAAAAAAAAAAAAAAAAMAzMMjZAzyMzMzMLzMjMjxYYmxgZmZmZmZmZAAAAAAAAAYMbDMgFwywEYsgZGzMDMAMMzAMzgB",
+					talentString = "CsPAAAAAAAAAAAAAAAAAAAAAAMAzMMzMDY2mZmZmZzMjmZMzYYmxgZmZmZmZmZAAAAAAAAAYMbDMgFwywEYsgZGzMDMAMMzAYgB",
 				},
 				[7] = {
 					label = "Murder Row",
@@ -892,7 +892,7 @@ local talentData = {
 				},
 				[7] = {
 					label = "Murder Row",
-					talentString = "C8DAAAAAAAAAAAAAAAAAAAAAAMzwYZmZmFMzIzMzAAAAAwMz0sssMDAwmZmx2YmZGbAAAAAYzMjZGAAMmhxMzMzsNAMzAjxYwMMGA",
+					talentString = "C8DAAAAAAAAAAAAAAAAAAAAAAMzwYZmZmFMzIzMzMAAAGAwMz0sstNDAwmZmx2MzMzYDAAAAALmZmZAAgZMmZmZMzsMAMzAMGwMMGA",
 				},
 				[8] = {
 					label = "Altar of Fangs",
@@ -918,11 +918,11 @@ local talentData = {
 				},
 				[4] = {
 					label = "The Blinding Vale",
-					talentString = "CAEAAAAAAAAAAAAAAAAAAAAAAYGmZZmZmlhZmYegZmZmZmZ2MzMMjBAAAMzMzyyMTbAAwGAAAYBgttxMmBz2wYmxCAAAzsBMjZmBMDGA",
+					talentString = "CAEAAAAAAAAAAAAAAAAAAAAAAMzwYZmZmFmZmYGmZmZmZWMzMzMGzsMTzMLzCAAAsAAALAAAgFA22GzMzghxMzMWAAAAzMYmMGAYA",
 				},
 				[5] = {
 					label = "Voidscar Arena",
-					talentString = "CAEAAAAAAAAAAAAAAAAAAAAAAMzwYZmZmFMzEzMmZmZmZWMzMzMzMzsMTzMbzCAAAsAAALAAAAAstNmZmBz2MmZGbLAAAgZGMTGDYAMA",
+					talentString = "CAEAAAAAAAAAAAAAAAAAAAAAAMzwYZm5BmFegZmYmZmZmZmZ2MzMMjZAAAgZmZWWmZaDAA2AAAALAstMmZmBz2wYmxGAAAzsBMDjBMDGA",
 				},
 				[6] = {
 					label = "Den of Nalorakk",
@@ -1037,7 +1037,7 @@ local talentData = {
 				},
 				[4] = {
 					label = "The Blinding Vale",
-					talentString = "CsQAAAAAAAAAAAAAAAAAAAAAAwMjZGNLmxmZGzysNzYmFzYZZMAAYGjZmZBMmxwCMw2wCNWYAAgxMMsBgZGgxMjZ2AAAMzMzAAYMM",
+					talentString = "CsQAAAAAAAAAAAAAAAAAAAAAAwMMzoZzMz2MzYWmNzMzsYmZZZMAAYGjZmZBMmxwCMw2wCNWYAAgxgBAYmBYMjZmNAAAzMzAAgZYA",
 				},
 				[5] = {
 					label = "Voidscar Arena",
@@ -1045,7 +1045,7 @@ local talentData = {
 				},
 				[6] = {
 					label = "Den of Nalorakk",
-					talentString = "CsQAAAAAAAAAAAAAAAAAAAAAAwMjZGNbmZ2mZGzysZmZmFzMLLzDMAAYGjZmZBMmxwCMw2wCNWYAAgxMMAAzMAjZMmNAAAzMzAAADD",
+					talentString = "CsQAAAAAAAAAAAAAAAAAAAAAAwMMzoZzMz2MzYWmNzMzsYmZZZMAAYGjZmZBMmxwCMw2wCNWYAAgxgBAYmBYMjZmNAAAzMzAAgZYA",
 				},
 				[7] = {
 					label = "Murder Row",
@@ -1267,7 +1267,7 @@ local talentData = {
 				},
 				[2] = {
 					label = "Temple of Sethraliss",
-					talentString = "CgGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgZmZmFzMjZWmZxMPwMLLDMbmxoJyMzyMzMzsMmBAAAAAAjNzALbzMYMLDgJAAAgNMzAsYMMwsYBgZGAA",
+					talentString = "CgGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgZmZml5BmZMziZxwMLLDMbGGNRzMzyMzMzsMmBAAAAAgZsYAbbzMYMLDgJAAAgNMzAsYGMgNLAMzAYA",
 				},
 				[3] = {
 					label = "Ruby Life Pools",
@@ -1436,7 +1436,7 @@ local talentData = {
 				},
 				[5] = {
 					label = "Voidscar Arena",
-					talentString = "CgcBAAAAAAAAAAAAAAAAAAAAAAAWmZmZmZGjxwMAAAAAAALGz2gZAAAAAAAAYGzw8AzMzMzMzMMz2MjxmsAAADwMmZmtZmpZZmlZmhZGA",
+					talentString = "CgcBAAAAAAAAAAAAAAAAAAAAAAA2mxMzMzYmxwMAAAAAAAMmthZGAAAAAAAAmxMMzMzMzMzMDzsYGjFZhZmZmt2mZmBwwAAwMGMmB",
 				},
 				[6] = {
 					label = "Den of Nalorakk",
@@ -1505,11 +1505,11 @@ local talentData = {
 				},
 				[2] = {
 					label = "Temple of Sethraliss",
-					talentString = "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAmZmZ2WmZGDjxsZGw2wAAAzYmZmZMMTMmBAAAMzMTGzMzMGzAAjZgFwGYGmAbM2MMDwMDD",
+					talentString = "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAmZmZ2WGzYYmxsZGw2wAAAzYGzMjhZiZmBAAAMzMTGzMjxMzAAjZgFwCYGmAbM2MMAmZGD",
 				},
 				[3] = {
 					label = "Ruby Life Pools",
-					talentString = "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAmZmZ2WmZGDjxsZGw2wAAAzYmZmZMMTMmBAAAMzMTGzMzMGzAAjZgFwGYGmAbM2MMDwMDD",
+					talentString = "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAmZmZ2WmZGDjxsZGw2wAAAzYGzYMMTMzMAAAgZmZyYmZMLzMDAMmBWAbgZYCsxYzwAYmZMA",
 				},
 				[4] = {
 					label = "The Blinding Vale",

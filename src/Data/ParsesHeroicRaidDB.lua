@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.ParsesHeroicRaidDB = addonTable.ParsesHeroicRaidDB or {}
 
 local talentData = {
-	updated = "2026-08-29 11:41:46",
+	updated = "2026-08-30 10:31:28",
 
 	[1] = {
 		specs = {
@@ -25,7 +25,7 @@ local talentData = {
 				},
 				[4] = {
 					label = "The Lost Explorers",
-					talentString = "CcEAAAAAAAAAAAAAAAAAAAAAAAzMzsMzYmZGAAAghphZGzMWmZmZGMmZAAAAAMzyMDMhxy2ALgBMDTgZwGYmhx2ALzsNAzMAYGGA",
+					talentString = "CcEAAAAAAAAAAAAAAAAAAAAAAAzMzsMzYmZGAAAghphxYmxyMzMzgxMDAAAAgZWmZgJMW2GYBMgZYCMD2AzM2GbDsMz2AMzAgZYA",
 				},
 				[5] = {
 					label = "Vashnik the Malignant",
@@ -55,7 +55,7 @@ local talentData = {
 				},
 				[2] = {
 					label = "Nek'zali the Soulcoiler",
-					talentString = "CgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgGDzwMz2yMzMzMMmZmZmZMzyMGzMmNzMzAAAxYZbgFwAmhJwMsBMzsZsBAAzMMmlBGMG",
+					talentString = "CgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgGDjxMzmZmZmZYMzMzMzYmlZMmZMbmZmBAAixy2ALgBMDTgZYDYmZzYDAAmZYMLDjBjB",
 				},
 				[3] = {
 					label = "Entombed Sentinels",
@@ -64,6 +64,10 @@ local talentData = {
 				[4] = {
 					label = "The Lost Explorers",
 					talentString = "CgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgGDzMjZ2WmxMjxMmZmZmZMzyMzMzMmFzMzAAAhB2glFjGzAYWwMWAMDGAwMDADLmZAjB",
+				},
+				[5] = {
+					label = "Vashnik the Malignant",
+					talentString = "CgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgGDzMMjlZmZmZMjZmZmZmZmlZMmZMbmZmBAAixy2ALgBMDTgZYDYmhxGAAMzwYMMGMG",
 				},
 				[6] = {
 					label = "Sszorak",
@@ -150,11 +154,11 @@ local talentData = {
 				},
 				[1] = {
 					label = "Nymrissa Wavecaller",
-					talentString = "CIEAAAAAAAAAAAAAAAAAAAAAAsNDzyMz8AzMzMsMGzywywAAMAAAAAAINzYmxMDjZrNAMgBmBbAAAAwMzy2SLzMWstxMAGjZYMAYmBAzMIjN",
+					talentString = "CIEAAAAAAAAAAAAAAAAAAAAAAsNzDYWmZYGzM2WGjZZWsMMAADAAAAAAaamxMjZGGzWbAYgBMD2AAAAgZmltlWmZsYbjZAMYGmZAwMDAmByYB",
 				},
 				[2] = {
 					label = "Nek'zali the Soulcoiler",
-					talentString = "CIEAAAAAAAAAAAAAAAAAAAAAAsNzYWmZmHYGzMWWGMLDLzYAAGAAAAAA00MzyMjZGGPwWAwADYgNAAAAYmZZbplZGL22YGADmhxAgZGAMzgMWA",
+					talentString = "CIEAAAAAAAAAAAAAAAAAAAAAAsNzDYWmZYGzM2WGjZZWsMMAADAAAAAAaamxMjZGGzWbAYgBMD2AAAAgZmltlWmZsYbjZAMYGmZAwMDAmByYB",
 				},
 				[3] = {
 					label = "Entombed Sentinels",
@@ -192,7 +196,7 @@ local talentData = {
 				},
 				[3] = {
 					label = "Entombed Sentinels",
-					talentString = "CYEAAAAAAAAAAAAAAAAAAAAAAAAAAAANbbzMzywMDAAAAAAzUGzwMjtxsNMz2MGjxwMWYbAYWmtZmZrBAAAWAMAYMDzgZMzsBMzMMmxgB",
+					talentString = "CYEAAAAAAAAAAAAAAAAAAAAAAAAAAAANbbzMzyYmZGAAAAAAzUGzwMjtxsNMz2MGjxwMWYDAzysNzMbNAAAwCgBAjZYGMjZmNgZmhxMGMA",
 				},
 				[4] = {
 					label = "The Lost Explorers",
@@ -307,7 +311,7 @@ local talentData = {
 				},
 				[3] = {
 					label = "Entombed Sentinels",
-					talentString = "C8PAAAAAAAAAAAAAAAAAAAAAAMWgBmxoxyAYGwmxMzYGLDAAAAAAzMzMzwMGzYGMmmBAAAYAwMW2mZmFmZmZMzYAYGbgxYGLGAA",
+					talentString = "C8PAAAAAAAAAAAAAAAAAAAAAAMWgBmxoxyAYGw2MmZGzMLDAAAAAAzYGzssNjxMmBPgpZAAAAGAMjllZmZxYmxYmBAmxCzixwYzAA",
 				},
 				[4] = {
 					label = "The Lost Explorers",
@@ -483,7 +487,7 @@ local talentData = {
 				},
 				[1] = {
 					label = "Nymrissa Wavecaller",
-					talentString = "CEQAAAAAAAAAAAAAAAAAAAAAAwYAAAAAAAgZmlxMjZmZYmZYZGmBAAAwwsMDzMzMYGzAYmaAgZWMDziBAGD2MzMbAaGmxYYmZbZAmBGA",
+					talentString = "CEQAAAAAAAAAAAAAAAAAAAAAAwYAAAAAAAgZmlxYMzMDzMzYZGmBAAAwwsMDzMzMMDzYAzUAgZWMDziBAGD2MzMLAaGzMGDzMbLDwAGA",
 				},
 				[2] = {
 					label = "Nek'zali the Soulcoiler",
@@ -517,7 +521,7 @@ local talentData = {
 				},
 				[2] = {
 					label = "Nek'zali the Soulcoiler",
-					talentString = "CIQAAAAAAAAAAAAAAAAAAAAAAMMjZGAAAAAAAAAAAgxMMjx2MDzsNzwMjtZMmZmBmMwMNzAzAMzmZY2MAkxYBAzAMmZmxsNmZbZAmBDA",
+					talentString = "CIQAAAAAAAAAAAAAAAAAAAAAAMMDDAAAAAAAAAAAAmZxMmZbmxMz2MGzw2MzYmZGbIzYxMNAzAMzmZY2MAkxYBAzMgxMzMmNmZbZAmBDA",
 				},
 				[3] = {
 					label = "Entombed Sentinels",
@@ -640,7 +644,7 @@ local talentData = {
 				},
 				[5] = {
 					label = "Vashnik the Malignant",
-					talentString = "CwPAAAAAAAAAAAAAAAAAAAAAAAYmh5BMjhZWGzMTziZGzMjZAAAAAAAAMzYGDAWmxMzmZGjZALmFDDMwsxQjFmBMDAjZmxMAzMDjB",
+					talentString = "CwPAAAAAAAAAAAAAAAAAAAAAAAYmZMjZGDz2MzMTzmZGjZMAAAAAAAAMPwwYAwyMMzmZGzMjBGYGbassAYbwGAmBwMzMzYGMzghxA",
 				},
 				[6] = {
 					label = "Sszorak",
@@ -705,7 +709,7 @@ local talentData = {
 				},
 				[1] = {
 					label = "Nymrissa Wavecaller",
-					talentString = "CcQAAAAAAAAAAAAAAAAAAAAAAMzMjZGzMzMzMzMzYGAAAAAAAAAsAbwMW0YbAMDYDgZZwYssMjFmZ2GLmZmhZ2GzAAYYGzYmJmZAGMuAA",
+					talentString = "CcQAAAAAAAAAAAAAAAAAAAAAAMzMzgZmZmZmhZmZAAAAAAAAA2AsZGDbwCMDDNYBgZbGzYssYsxMz2YZmZmZwCzAAMDjZGmJwMDGMGA",
 				},
 				[2] = {
 					label = "Nek'zali the Soulcoiler",
@@ -809,6 +813,20 @@ local talentData = {
 					talentString = "C4DAAAAAAAAAAAAAAAAAAAAAAYGGLzMzswMDamZGAAAGAwMz0sssMDAgNAAAzMDbWmxMLzYMzMzMswMmZmBAYAAAGgZGwMAYYmZA",
 				},
 			},
+			[63] = {
+				[0] = {
+					label = "All Bosses",
+					talentString = "C8DAAAAAAAAAAAAAAAAAAAAAAYGGLzMzsgZGZmZGAAAGAwMz0sstNDAwmZmx2MzMzYBAAAAAbmZMzAAgZMmZmZMzsNAMzAjxAmhxA",
+				},
+				[1] = {
+					label = "Nymrissa Wavecaller",
+					talentString = "C8DAAAAAAAAAAAAAAAAAAAAAAYGGLzMzsgZGZmZGAAAGAwMz0sstNDAwmZmx2MzMzYBAAAAAbmZMzAAgZMmZmZMzsNAMzAjxAmhxA",
+				},
+				[2] = {
+					label = "Nek'zali the Soulcoiler",
+					talentString = "C8DAAAAAAAAAAAAAAAAAAAAAAMjllZWmxMbYmRmZMDAAgZWmpZmtZBAAAsYmZmtZmZm5BWAAAAAwiZmZGAAYGjZmZGzMbAzMgwYAwYA",
+				},
+			},
 			[64] = {
 				[0] = {
 					label = "All Bosses",
@@ -851,7 +869,7 @@ local talentData = {
 			[265] = {
 				[0] = {
 					label = "All Bosses",
-					talentString = "CkQAAAAAAAAAAAAAAAAAAAAAAwMjZGNbmx2MzYWGAAwMzsMLmZWGDAM2WGYADYG2CMsNAAAMDAAgZmxMmZ2GjZMmZmZMMzMDAwAG",
+					talentString = "CkQAAAAAAAAAAAAAAAAAAAAAAwMzMzoZhhZmZmlBAAYmZZ2mZmlxAAjllBGwAmhtADbDAAAzAAAYmxMjxgZYmZmZGDmZmZAAzAD",
 				},
 				[1] = {
 					label = "Nymrissa Wavecaller",
@@ -859,7 +877,7 @@ local talentData = {
 				},
 				[5] = {
 					label = "Vashnik the Malignant",
-					talentString = "CkQAAAAAAAAAAAAAAAAAAAAAAgxMzoZjx2MzMzyAAAMzsMLzMzyYAgxyyADYAzwWghtBAAgZAAAMzMzMmZwMMzMzMjBzMzAAMDMA",
+					talentString = "CkQAAAAAAAAAAAAAAAAAAAAAAwMzMzoZhhZmZmlBAAYmZZ2mZmlxAAjllBGwAmhtADbDAAAzAAAYmxMjxgZYmZmZGDmZmZAAzAD",
 				},
 			},
 			[266] = {
@@ -1010,7 +1028,7 @@ local talentData = {
 				},
 				[2] = {
 					label = "Nek'zali the Soulcoiler",
-					talentString = "C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghx2YZYzixMzyyM2wYGmZZZbmxCzoZMDYwgxsMzMzwsNYwiJAAAAAAYxyMLz2MTAAYADwMgxwYRGzA",
+					talentString = "C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghxyMLjZx2MmZ2WMwMMbmZzyMjFmRzYGwghBmZMDzywMjZbmAAAAAAgFbzsMLzMBAgBMAzAGgFZMDA",
 				},
 				[3] = {
 					label = "Entombed Sentinels",
@@ -1022,7 +1040,7 @@ local talentData = {
 				},
 				[5] = {
 					label = "Vashnik the Malignant",
-					talentString = "C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghx2MwmFzYmllZshZmhZWWWmZswMaGzAGMYMLzMzMMbDGsYCAAAAAAWsMzysNzEAAGwAMDYMMWkxMA",
+					talentString = "C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghx2MwmFzYmltZshZmhZW2WmZsYmRzYGwghZMbzMzMjZbAsYCAAAAAAWsMzysNzEAAGwAMDYMwiMmBA",
 				},
 				[6] = {
 					label = "Sszorak",
@@ -1139,7 +1157,7 @@ local talentData = {
 				},
 				[1] = {
 					label = "Nymrissa Wavecaller",
-					talentString = "CkGAAAAAAAAAAAAAAAAAAAAAAYMmZZmZMzMmthBzsYsNmBAAAAAAAAAALDa2MjpZGDPgZZmZmZYyMAAAAAAAAAAAAAMbzs0sNzmNGzMwMLgmBAYmBgB",
+					talentString = "CkGAAAAAAAAAAAAAAAAAAAAAAMjxMbzMjZmxsNMYmFjNmBAAAAAAAAAAbDa2MjpZGDPgZZMzMziJzAAAAAAAAAbbjFMNzsMAAAAWYMzgZGY0MAYmBAMA",
 				},
 				[2] = {
 					label = "Nek'zali the Soulcoiler",
@@ -1190,7 +1208,7 @@ local talentData = {
 				},
 				[3] = {
 					label = "Entombed Sentinels",
-					talentString = "CEkAAAAAAAAAAAAAAAAAAAAAAYmZGzMz2MmZmxYmMmZAAAAAAAzixsNDzMYmxyMjZYmxYWGYZ2MjhZhpxMzYGbAAAAAAAAMzgBAAAgB",
+					talentString = "CEkAAAAAAAAAAAAAAAAAAAAAAYmZGzMzmxMzMmZmMmZAAAAAAAzyDMmtZYmBzMWmZMDzMGzyALzmZMMbMNmZGDbAAAAAAAAMzgBAAAgB",
 				},
 				[4] = {
 					label = "The Lost Explorers",
@@ -1305,7 +1323,7 @@ local talentData = {
 				},
 				[5] = {
 					label = "Vashnik the Malignant",
-					talentString = "CsbBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzMDMDzYmBMYMTjZmpZMWmxMzMz8AzMzAmxMzYmZZmZgBGDWglxox2AYGEshBmZwwA",
+					talentString = "CsbBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjZgZYGzMgBjZamZmpZM2mxMzMzMzMzAmxMGzMbzMDMwYwGsMGN2GAzggNMwMDGG",
 				},
 				[6] = {
 					label = "Sszorak",

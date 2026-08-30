@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.ParsesLfrRaidDB = addonTable.ParsesLfrRaidDB or {}
 
 local talentData = {
-	updated = "2026-08-29 11:41:46",
+	updated = "2026-08-30 10:31:28",
 
 	[1] = {
 		specs = {
@@ -21,7 +21,7 @@ local talentData = {
 				},
 				[5] = {
 					label = "Vashnik the Malignant",
-					talentString = "CcEAAAAAAAAAAAAAAAAAAAAAAgZmZmFzYmZGAAAghphxYmZzMzMzYmxMDAAAAgxyMDMhxy2ALgBMDTgZwGYmhhBzyMbDwMDAmhBA",
+					talentString = "CcEAAAAAAAAAAAAAAAAAAAAAAgZmZmFzYmZGAAAghphxYmZzMzMzYmxMDAAAAgxyMDMhxy2AbgBMDTgZwGYmhhBzyMbDwMDAmhBA",
 				},
 				[7] = {
 					label = "The Twin Fangs",
@@ -31,11 +31,11 @@ local talentData = {
 			[72] = {
 				[0] = {
 					label = "All Bosses",
-					talentString = "CgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgGDzMzMzmZmZm5BMzMzYGzMzsMDzMjZbmZmBAACDsBLbGNmBwsghFADmZDAmZAGMGGDGA",
+					talentString = "CgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgGDjZMz2yMzMjZmxMzMzMjZWmZmZmxsYmZGAAIMwGssY0YGAzCmxCgZwAAmZAYYxMAjB",
 				},
 				[2] = {
 					label = "Nek'zali the Soulcoiler",
-					talentString = "CgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgGDzMzMzmZmZm5BMzMzYGzMzsMDzMjZbmZmBAACDsBLbGNmBwsghFADmZDAmZAGMGGDGA",
+					talentString = "CgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgGDjZMz2yMzMjZmxMzMzMjZWmZmZmxsYmZGAAIMwGssY0YGAzCmxCgZwAAmZAYYxMAjB",
 				},
 				[3] = {
 					label = "Entombed Sentinels",
@@ -57,7 +57,7 @@ local talentData = {
 				},
 				[2] = {
 					label = "Nek'zali the Soulcoiler",
-					talentString = "CkEAAAAAAAAAAAAAAAAAAAAAAEAAwYmhZmZMzsxMLDjxMNjxYbZmZmZYYmBAAAALzMAzsNADsBLbGNmBwsgZ2wMzMzgBAMzAAwMwA",
+					talentString = "CkEAAAAAAAAAAAAAAAAAAAAAA0yAAAzMzMzMzMzY2MjlZMGjmZmZmFzMzMjZGGAAAAgBwMGAYxMGWgBmhFaYWwMjxwMbAAmZAAG4DMA",
 				},
 				[3] = {
 					label = "Entombed Sentinels",
@@ -69,7 +69,7 @@ local talentData = {
 				},
 				[7] = {
 					label = "The Twin Fangs",
-					talentString = "CkEAAAAAAAAAAAAAAAAAAAAAA0yAAAzMzMzMzYGzixsMMGjmxYstMzMzMYMzAAAAglxAMjBYgNYZxoxMAmNMzGGjZGMAgZGAAmBGD",
+					talentString = "CkEAAAAAAAAAAAAAAAAAAAAAA0yAAAzMzMzMzMzY2MjlZMGjmZmZmFzMzMjZGGAAAAgBwMGAYxMGWgBmhFaYWwMjxwMbAAmZAAG4DMA",
 				},
 			},
 		},
@@ -92,7 +92,7 @@ local talentData = {
 				},
 				[5] = {
 					label = "Vashnik the Malignant",
-					talentString = "CEEAAAAAAAAAAAAAAAAAAAAAAAAAALAwMAAD2GzMzMjZmZBmZYZsZmFjmYYMzMMmtMAMAsB2YZmZmlZbmZ2aAAAAWAGsZgZMDzAAYmhZMGGA",
+					talentString = "CEEAAAAAAAAAAAAAAAAAAAAAAAAAALAwMAAw2MzMjZMzYxYmZYZwMLmpJGGzMDjZLDADYYDsxyMmZZ2mZmtGAAAgFAYzwYGzwMAAmZYGjhB",
 				},
 				[7] = {
 					label = "The Twin Fangs",
@@ -132,11 +132,11 @@ local talentData = {
 				},
 				[3] = {
 					label = "Entombed Sentinels",
-					talentString = "CYEAAAAAAAAAAAAAAAAAAAAAAAAAAAwoZbbmZWGzMzMAAAAAAzUGzwMjtxsNMz2MGjxwM2YDAAgZm2mZ2mBAsBYAwYGGYGzYDLzghxMGMA",
+					talentString = "CYEAAAAAAAAAAAAAAAAAAAAAAAAAAAwoZbbmZWGzMzAAAAAAYmyYGmZsNmthZ2mxYMGmxGbAAAMz02Mz2MAgNADAGzwAzYmZDLzghxMGMA",
 				},
 				[5] = {
 					label = "Vashnik the Malignant",
-					talentString = "CYEAAAAAAAAAAAAAAAAAAAAAAAAAgBAoZbbmZWGzMzAAAAAAYmyYGmhtxsNMz2MmZMGmxCbAYWmtZmZrBAAAWAMAYMDDMjZmNgZmhxMGMA",
+					talentString = "CYEAAAAAAAAAAAAAAAAAAAAAAAAAAAwoZbbmZWGzMzAAAAAAYmyYGmZsNmthZ2mxYMGmxGbAAAMz02Mz2MAgNADAGzwAzYmZDLzghxMGMA",
 				},
 				[7] = {
 					label = "The Twin Fangs",
@@ -173,7 +173,7 @@ local talentData = {
 			[254] = {
 				[0] = {
 					label = "All Bosses",
-					talentString = "C4PAAAAAAAAAAAAAAAAAAAAAAwCMwMGNWGAzgNAAAAAAAAwMmxMLbzYmZMDeATzYwstZmZmZmZmZWYmlhZAAAGzMjBwM2YYA2YmtZMA",
+					talentString = "C4PAAAAAAAAAAAAAAAAAAAAAAwCMwMGNWGAzgNAAAAAAAAwMmZmZxMmZGzgx0MGM2WmZmZmZmZmFMLDmBAAMmZGDgZstBDwGzsNjB",
 				},
 				[2] = {
 					label = "Nek'zali the Soulcoiler",
@@ -181,11 +181,11 @@ local talentData = {
 				},
 				[3] = {
 					label = "Entombed Sentinels",
-					talentString = "C4PAAAAAAAAAAAAAAAAAAAAAAwCMwMGNWGAzgNAAAAAAAAwMmZmhZMzMmBjpZMYstMzMzMzMzMLMzygZAAAegZGGAzYjxMAbMz2MG",
+					talentString = "C4PAAAAAAAAAAAAAAAAAAAAAAYzsMwAGwMsEYWAAAAAAAAAzMzYGLzYmZMjxDQGzDwssZmZmZmHwMzGjtBzAAAmZMmZmZABLzAgZWmZG",
 				},
 				[5] = {
 					label = "Vashnik the Malignant",
-					talentString = "C4PAAAAAAAAAAAAAAAAAAAAAAwCMwMGNWGAzgNAAAAAAAAwMmZmZxMmZGzgx0MGMbbmZmZmZmZGMzywMDAAYMzMGAzYDMAbMz2MG",
+					talentString = "C4PAAAAAAAAAAAAAAAAAAAAAAwCMwMGNWGAzgNAAAAAAAAwMmZmZxMmZGzgx0MGM2WmZmZmZmZmFMLDmBAAMmZGDgZstBDwGzsNjB",
 				},
 				[7] = {
 					label = "The Twin Fangs",
@@ -236,7 +236,7 @@ local talentData = {
 				},
 				[2] = {
 					label = "Nek'zali the Soulcoiler",
-					talentString = "CQQAAAAAAAAAAAAAAAAAAAAAAAgx2MMzMmZmtZmZmZMmF4BmZbaZw2MAAAAAAbbzMzwMzMziZmZbAAAAYmBAjZxwADMLsQLsxAMzgBG",
+					talentString = "CQQAAAAAAAAAAAAAAAAAAAAAAAgx2MMzMjZmtZmZMzMzsAmZbaZw2MAAAAAAbbzMzwMzMziZmZbAAAAYmBAjZxwADMLsQLsxAMzgBG",
 				},
 				[3] = {
 					label = "Entombed Sentinels",
@@ -250,7 +250,7 @@ local talentData = {
 			[261] = {
 				[0] = {
 					label = "All Bosses",
-					talentString = "CUQAAAAAAAAAAAAAAAAAAAAAAAgx2MAAAAAwsMGLTMbbjxMDjZmZmZGGbzYGbbzMzMzMjBjZ2GAAAAGMmFzyADYBsMMBmFMDzMAzYA",
+					talentString = "CUQAAAAAAAAAAAAAAAAAAAAAAAgx2MAAAAAwsMGLTMbbjxMDDzMzMzw8AbzYGbbzMzMzMjBjZ2GAAAAGMmFzyADYBsMMBmFMDzMAzYA",
 				},
 				[2] = {
 					label = "Nek'zali the Soulcoiler",
@@ -262,7 +262,7 @@ local talentData = {
 				},
 				[5] = {
 					label = "Vashnik the Malignant",
-					talentString = "CUQAAAAAAAAAAAAAAAAAAAAAAAgx2MAAAAAwsMGLTMbbjxMDDzMzMzgZbGzYbbmZmZmZMYMz2AAAAwgxsYWGYALglhJwsgZYmBYGDA",
+					talentString = "CUQAAAAAAAAAAAAAAAAAAAAAAAgx2MAAAAAwsMGLTMbbjxMDDzMzMzw8AbzYGbbzMzMzMjBjZ2GAAAAGMmFzyADYBsMMBmFMDzMAzYA",
 				},
 				[7] = {
 					label = "The Twin Fangs",
@@ -315,13 +315,13 @@ local talentData = {
 				},
 				[7] = {
 					label = "The Twin Fangs",
-					talentString = "CEQAAAAAAAAAAAAAAAAAAAAAAwYAAAAAAAgZmlxMjZmZYmZYZGmBAAAwwsMDzMzMYGzAYmaAgZWMDziBAGD2MzMbAaGmxYYmZbZAmBGA",
+					talentString = "CEQAAAAAAAAAAAAAAAAAAAAAAwYAAAAAAAgZmlxYMzMDzMzYZGmBAAAwwsMDzMzMMDzYAzUAgZWMDziBAGD2MzMLAaGzMGDzMbLDwAGA",
 				},
 			},
 			[258] = {
 				[0] = {
 					label = "All Bosses",
-					talentString = "CIQAAAAAAAAAAAAAAAAAAAAAAMMjZGAAAAAAAAAAAgxYxMGLzMY2mZGzw2MzYmZGbIzYxMNAzMzAABY2mtFwsxAMDwYmZGz2YGMzgZwA",
+					talentString = "CIQAAAAAAAAAAAAAAAAAAAAAAMMDDAAAAAAAAAAAAmZxMmZbmxMz2MGzw2MzYmZGbIzYxMNAzAMzmZY2MAkxYBAzMgxMzMmNmZbZAmBDA",
 				},
 				[2] = {
 					label = "Nek'zali the Soulcoiler",
@@ -337,7 +337,7 @@ local talentData = {
 				},
 				[7] = {
 					label = "The Twin Fangs",
-					talentString = "CIQAAAAAAAAAAAAAAAAAAAAAAMMDDAAAAAAAAAAAAmZxMmZbmxMzyMGzw2MzYmZGbIzYxMNAzAMzmZY2MAkxYBAzMgxMzMmNmZbZAmBDA",
+					talentString = "CIQAAAAAAAAAAAAAAAAAAAAAAMMDDAAAAAAAAAAAAmZxMmZbmxMz2MGzw2MzYmZGbIzYxMNAzAMzmZY2MAkxYBAzMgxMzMmNmZbZAmBDA",
 				},
 			},
 		},
@@ -591,7 +591,7 @@ local talentData = {
 				},
 				[3] = {
 					label = "Entombed Sentinels",
-					talentString = "CoQAAAAAAAAAAAAAAAAAAAAAAwMMzoZzMz2MzYWGAAAAAAAwYGDLwAbDL0wixMjlZbmZGzAAzMGzMzMAjZMzsBAAGzMzYYYZGDYA",
+					talentString = "CoQAAAAAAAAAAAAAAAAAAAAAAwMjZGNbzMz2MzY2GAAAAAAAwYGDLwAbDL0wixMjlZbmZGzAAzMGzMzMAjZMDAAgxMzMGGWmxAGA",
 				},
 				[5] = {
 					label = "Vashnik the Malignant",
@@ -640,11 +640,11 @@ local talentData = {
 				},
 				[3] = {
 					label = "Entombed Sentinels",
-					talentString = "CwQAAAAAAAAAAAAAAAAAAAAAAAAAAwMbbGDGzyMPwGzMjBAAAAAAYZBmYmBzMwmhxMzMDzGzMmZZYZz22sNMLAAwGAAAY2mlmZmZzMsAwMDTjBAAMA",
+					talentString = "CwQAAAAAAAAAAAAAAAAAAAAAAAAAAwMbbGDGzGziZmZMAAAAAAAWgJMDMjBmBzMzMMbMzYmthltZZb2YmFAAYDAAAMbzSzMzsxwCDYmhpBwwAwA",
 				},
 				[5] = {
 					label = "Vashnik the Malignant",
-					talentString = "CwQAAAAAAAAAAAAAAAAAAAAAAAAAAwMbbGDGzyMPwGzMjBAAAAAAYZBmYmBzMwmhxMzMDzGzMmZZYZz22sNMLAAwGAAAY2mlmZmZzMsAwMDTjBAAMA",
+					talentString = "CwQAAAAAAAAAAAAAAAAAAAAAAAAAAwMbbGDGzGziZmZMAAAAAAAWgJMDMjBmBzMzMMbMzYmthltZZb2YmFAAYDAAAMbzSzMzsxwCDYmhpBwwAwA",
 				},
 				[7] = {
 					label = "The Twin Fangs",
@@ -680,7 +680,7 @@ local talentData = {
 				},
 				[2] = {
 					label = "Nek'zali the Soulcoiler",
-					talentString = "C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgxMMDsZxMmZZZGbYmZYmltlZGLMmmxMgBDGWmZmZYWGMMLmAAAAAAgFLzsMbzMBAgBMAzAGDjFZMDA",
+					talentString = "C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghx2YZYzixMzyyM2wYGmZZZbmxCzoZMDYwgxYmZmhZbMGsYCAAAAAAWsMzysNzEAAGwAMDYMMWkxMA",
 				},
 				[3] = {
 					label = "Entombed Sentinels",
@@ -692,7 +692,7 @@ local talentData = {
 				},
 				[7] = {
 					label = "The Twin Fangs",
-					talentString = "C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgxMMDsZxMmZZZGbYmZYmltlZGLMmmxMgBDGWmZmZYWGMMLmAAAAAAgFLzsMbzMBAgBMAzAGDjFZMDA",
+					talentString = "C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghx2YZYzixMzyyM2wYGmZZZbmxCzoZMDYwgxYmZmhZbMGsYCAAAAAAWsMzysNzEAAGwAMDYMMWkxMA",
 				},
 			},
 		},
@@ -711,11 +711,11 @@ local talentData = {
 				},
 				[3] = {
 					label = "Entombed Sentinels",
-					talentString = "CYGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWoMbNjxMDwsMzMzMLMMMLzsMzCzM2YZmlxMzMWwwAM22mZwY2GATAAAAWYmZmBbGGjBAgZGYA",
+					talentString = "CYGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWoMbNMmZgxsMzMzMLMgxMLzsYmZswyMLjxMjNMAYstNzgxsNAmAAAAswMzMD2MmxYAAYmBLDA",
 				},
 				[5] = {
 					label = "Vashnik the Malignant",
-					talentString = "CYGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA2omZpZmZmZgxsYmZmBDYWGbzsMjZGzsMjZmZwGGGgBYbbshpZmlBAAAAbMjxgNDjxMAmZAgBA",
+					talentString = "CYGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWoMbNMmZgxsMzMzMLMgxMLzsYmZswyMLjxMjNMAYstNzgxsNAmAAAAswMzMD2MmxYAAYmBLDA",
 				},
 				[7] = {
 					label = "The Twin Fangs",
@@ -824,6 +824,10 @@ local talentData = {
 					label = "Nek'zali the Soulcoiler",
 					talentString = "CUkAAAAAAAAAAAAAAAAAAAAAAAA2MmZmxMzMTGzALmxMYmxMjZmZmZMYmZGbjZwwAAAAAAAAgZmZDAAAADmZmZmZrtZmZAwAAAAwA",
 				},
+				[3] = {
+					label = "Entombed Sentinels",
+					talentString = "CUkAAAAAAAAAAAAAAAAAAAAAAAAYMzMjZmZkZmZYWMzMzMMjZGzYGzYYGmx2MzYMAAAAAAAAgZmxGAAAAGMmZmZWabmZGAYAAAAMA",
+				},
 				[5] = {
 					label = "Vashnik the Malignant",
 					talentString = "CUkAAAAAAAAAAAAAAAAAAAAAAAAMjZmZMMjMzMwiZMDmZMzYmHYmZGDzMzM2MzsNGzAAAAAAAAwMzYDAAAADMzMzMLtNzMDAMAAAAG",
@@ -889,19 +893,19 @@ local talentData = {
 				},
 				[2] = {
 					label = "Nek'zali the Soulcoiler",
-					talentString = "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAMzMjFzMGMjZzwMzsNAAAmxMGMjZkZmBAAAYmZmMzMzYWmZGAMjZgFwCYGmAbwmhBwMzYA",
+					talentString = "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAMzMDmZMYGzmhZmZbAAAMjZMYGzIzMDAAAwMzMZmZmxsNzMAYGzALgFwMMB2MsZYAMzMGA",
 				},
 				[3] = {
 					label = "Entombed Sentinels",
-					talentString = "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAMzMz2yADzMmFzMjx2AAAYGzYGmxMTmZmBAAA2mZmJjZmxYMDAAjZswCMwMM0wwCMmZAMD",
+					talentString = "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAMzMDmZMYGzmhZmZbAAAMjZMYGzIzMDAAAwMzMZmZmxsNzMAYGzALgFwMMB2MsZYAMzMGA",
 				},
 				[5] = {
 					label = "Vashnik the Malignant",
-					talentString = "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAMzMz2yADzMmFzMjx2AAAYGzYGmxMTmZmBAAA2mZmJjZmxYMDAAjZswCMwMM0wwCMmZAMD",
+					talentString = "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAMzMDmZMYGzmhZmZbAAAMjZMYGzIzMDAAAwMzMZmZmxsNzMAYGzALgFwMMB2MsZYAMzMGA",
 				},
 				[7] = {
 					label = "The Twin Fangs",
-					talentString = "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAmxMzmBGmZmZzMzwsZMAAwMjxMYMjGzDMAAAAzMzkZMzMzyYGAMwYGLsBDMDDNYsAjZGAGA",
+					talentString = "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAMzMDmZMYGzmhZmZbAAAMjZMYGzIzMDAAAwMzMZmZmxsNzMAYGzALgFwMMB2MsZYAMzMGA",
 				},
 			},
 			[1473] = {
