@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.ParsesLfrRaidDB = addonTable.ParsesLfrRaidDB or {}
 
 local talentData = {
-	updated = "2026-09-03 09:56:31",
+	updated = "2026-09-04 09:44:06",
 
 	[1] = {
 		specs = {
@@ -138,7 +138,7 @@ local talentData = {
 				},
 				[4] = {
 					label = "The Lost Explorers",
-					talentString = "CIEAAAAAAAAAAAAAAAAAAAAAAsZeAzyYGzYmZWWGjZZWmlZMAADAAAAAAaamhZMzwY2aDADMgZw2AAAAgZmttlWmZsYZBDAYGGDAmZAYmZQGL",
+					talentString = "CIEAAAAAAAAAAAAAAAAAAAAAAsNzYWmZYGzM2WGDLzithBAYAAAAAAQamZxMmZGjZrNAMgBMYbAAgZm2mZWmBAYzyGzAgxMMGAgtZAmZAjN",
 				},
 				[5] = {
 					label = "Vashnik the Malignant",
@@ -146,7 +146,7 @@ local talentData = {
 				},
 				[6] = {
 					label = "Sszorak",
-					talentString = "CIEAAAAAAAAAAAAAAAAAAAAAAsZeAzyYGzYmZWWGjZZWmlZMAADAAAAAAaamhZMzwY2aDADMgZw2AAAAgZmttlWmZsYZBDAYGGDAmZAYmZQGL",
+					talentString = "CIEAAAAAAAAAAAAAAAAAAAAAAsNzYWmZYGzM2WGDLzithBAYAAAAAAQamZxMmZGjZrNAMgBMYbAAgZm2mZWmBAYzyGzAgxMMGAgtZAmZAjN",
 				},
 				[7] = {
 					label = "The Twin Fangs",
@@ -168,7 +168,7 @@ local talentData = {
 				},
 				[4] = {
 					label = "The Lost Explorers",
-					talentString = "CYEAAAAAAAAAAAAAAAAAAAAAAAAAgBAGNLbzMz2MzMzAAAAAAYmywgBPw8ALDmtxMzYmxMjN2GAAAzMtNzsNDAYDwDALjZYGGYMzMLYZGMMmxgHA",
+					talentString = "CYEAAAAAAAAAAAAAAAAAAAAAAAAAAAANbbzMzywMDAAAAAAzUGzwMjtxsNMz2MGjxwMWYbAYWmtZmZrBAAAWAMAYMDzgZMzsBMzMMmxgB",
 				},
 				[5] = {
 					label = "Vashnik the Malignant",
@@ -176,7 +176,7 @@ local talentData = {
 				},
 				[6] = {
 					label = "Sszorak",
-					talentString = "CYEAAAAAAAAAAAAAAAAAAAAAAAAAgBAGNLbzMz2MzMzAAAAAAYmywgBPw8ALDmtxMzYmxMjN2GAAAzMtNzsNDAYDwDALjZYGGYMzMLYZGMMmxgHA",
+					talentString = "CYEAAAAAAAAAAAAAAAAAAAAAAAAAAAANbbzMzywMDAAAAAAzUGzwMjtxsNMz2MGjxwMWYbAYWmtZmZrBAAAWAMAYMDzgZMzsBMzMMmxgB",
 				},
 				[7] = {
 					label = "The Twin Fangs",
@@ -259,7 +259,7 @@ local talentData = {
 				},
 				[4] = {
 					label = "The Lost Explorers",
-					talentString = "C8PAAAAAAAAAAAAAAAAAAAAAAMgxMGWgNYGGawiZmZmZYZAAAAAAYGzYGbzYMjZGGTzAAAAMAwYZZmZWMzMjxYAMzGglZMmZ2MAA",
+					talentString = "C8PAAAAAAAAAAAAAAAAAAAAAAMgxMGWgFYGGawyMmZGzMLDAAAAAAzYGDbz4BMjZwYaGAAAgBAzYZZmZWMmZMGzMgZ2gNWmxwYzAA",
 				},
 				[5] = {
 					label = "Vashnik the Malignant",
@@ -267,7 +267,7 @@ local talentData = {
 				},
 				[6] = {
 					label = "Sszorak",
-					talentString = "C8PAAAAAAAAAAAAAAAAAAAAAAMgxMGWgNYGGawiZmZmZYZAAAAAAYGzYGbzYMjZGGTzAAAAMAwYZZmZWMzMjxYAMzGglZMmZ2MAA",
+					talentString = "C8PAAAAAAAAAAAAAAAAAAAAAAMgxMGWgFYGGawyMmZGzMLDAAAAAAzYmZGmxDYGzgx0MAAAAAwMWWmZmFjZGjxMDYmNYjlZMM2MAA",
 				},
 				[7] = {
 					label = "The Twin Fangs",
@@ -294,7 +294,7 @@ local talentData = {
 				},
 				[4] = {
 					label = "The Lost Explorers",
-					talentString = "CMQAAAAAAAAAAAAAAAAAAAAAAYmlZmFDGAAAAAYWGsNDAAAAAotlxMzMzMGLzMzsNzyMz8AzMmZYGmZMGADsAzY0Y2AsNgNDAmZmhB",
+					talentString = "CMQAAAAAAAAAAAAAAAAAAAAAAMzsMmFjtZAAAAAgZbw2MAAAAAg22mZmhZGjlZmZWmZZmxYmZMYGzMzYA2MbDMgNwywEYYxgZGgBD",
 				},
 				[5] = {
 					label = "Vashnik the Malignant",
@@ -344,8 +344,16 @@ local talentData = {
 					label = "Entombed Sentinels",
 					talentString = "CUQAAAAAAAAAAAAAAAAAAAAAAAgx2MAAAAAwsMGLTMbbjxMDDzMzMzw8AbzYGbbzMzMzMjBjZ2GAAAAGMmFzyADYBsMMBmFMDzMAzYA",
 				},
+				[4] = {
+					label = "The Lost Explorers",
+					talentString = "CUQAAAAAAAAAAAAAAAAAAAAAAAgx2MAAAAAwsMGLTMbbjxMDDzMzMzw8AbzYGbbzMzMzMjBjZ2GAAAAGMmFzyADYBsMMBmFMDzMAzYA",
+				},
 				[5] = {
 					label = "Vashnik the Malignant",
+					talentString = "CUQAAAAAAAAAAAAAAAAAAAAAAAgx2MAAAAAwsMGLTMbbjxMDDzMzMzw8AbzYGbbzMzMzMjBjZ2GAAAAGMmFzyADYBsMMBmFMDzMAzYA",
+				},
+				[6] = {
+					label = "Sszorak",
 					talentString = "CUQAAAAAAAAAAAAAAAAAAAAAAAgx2MAAAAAwsMGLTMbbjxMDDzMzMzw8AbzYGbbzMzMzMjBjZ2GAAAAGMmFzyADYBsMMBmFMDzMAzYA",
 				},
 				[7] = {
@@ -666,7 +674,7 @@ local talentData = {
 				},
 				[6] = {
 					label = "Sszorak",
-					talentString = "C4DAAAAAAAAAAAAAAAAAAAAAAMzwYZmZmFMzQzMGAAAGAwMz0sssMDAgNAA2gZmhNLzYmlZMmZmZGWYmZmZGAgBAAYAmZAGAMMzM",
+					talentString = "C4DAAAAAAAAAAAAAAAAAAAAAAMzwYZmZmFMzQzMzAAAwAAmZmmlllZAAsBAwGMzMsZZGzsMjxMzMzwGzYGzAAMAAADwMDMzAghZmB",
 				},
 				[7] = {
 					label = "The Twin Fangs",
@@ -775,7 +783,7 @@ local talentData = {
 				},
 				[4] = {
 					label = "The Lost Explorers",
-					talentString = "CoQAAAAAAAAAAAAAAAAAAAAAAsMmZmZEzM2mZGzCAAAAAAAwYGDLwALDL0wixMzYMzMDDAMjZmxMzAwMzYAAAMzMzMzMzwwAGA",
+					talentString = "CoQAAAAAAAAAAAAAAAAAAAAAAYmhZGNbmx2MzYWGAAAAAAAwYGDLwAbDb0wixMjlZbmZGzAAzMGzMzMAzMDzsBAAGzMzYYYZGDYA",
 				},
 				[5] = {
 					label = "Vashnik the Malignant",
@@ -783,7 +791,7 @@ local talentData = {
 				},
 				[6] = {
 					label = "Sszorak",
-					talentString = "CoQAAAAAAAAAAAAAAAAAAAAAAsMmZmZEzM2mZGzCAAAAAAAwYGDLwALDL0wixMzYMzMDDAMjZmxMzAwMzYAAAMzMzMzMzwwAGA",
+					talentString = "CoQAAAAAAAAAAAAAAAAAAAAAAYmhZGNbmx2MzYWGAAAAAAAwYGDLwAbDb0wixMjlZbmZGzAAzMGzMzMAzMDzsBAAGzMzYYYZGDYA",
 				},
 				[7] = {
 					label = "The Twin Fangs",
@@ -805,7 +813,7 @@ local talentData = {
 				},
 				[4] = {
 					label = "The Lost Explorers",
-					talentString = "CsQAAAAAAAAAAAAAAAAAAAAAAwMzMzoZjx2MzYWmtZmZmFjZZxMAAYGjZmZxCMwsY0YGAzG2YAAgxAsBAMzgZmxYAAAYmZGAAGDD",
+					talentString = "CsQAAAAAAAAAAAAAAAAAAAAAAsMmZmZ0sYGbzMjZZWGzMziZmtFGAAMzYjZWsADMLGNmBwshNGAAYmBzMAAmZAzMjBAAgZYGAAmhB",
 				},
 				[5] = {
 					label = "Vashnik the Malignant",
@@ -927,7 +935,7 @@ local talentData = {
 				},
 				[4] = {
 					label = "The Lost Explorers",
-					talentString = "CYGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWoMbNjxMDMmlZmZmBYYMzyMLmZGLsMzyYMzYBDAGbbzMYMbDgJAAAALMzMzgNjZMmBAwMDMA",
+					talentString = "CYGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWomZrZMjBwsYmZGMjZMjZWMLmZmxYbmlxYGDMMAjltZGMmlBwEAAAgFGzMD2MmxYAAYmBLDA",
 				},
 				[5] = {
 					label = "Vashnik the Malignant",
@@ -1199,7 +1207,7 @@ local talentData = {
 				},
 				[4] = {
 					label = "The Lost Explorers",
-					talentString = "CEcBAAAAAAAAAAAAAAAAAAAAAMMzMbjZGMDzMLzYmZMzGAAAAAAAAzM8AmBjHoGzMzAAAAgZmZMmZ2GzMwMLGYMjFWgBmhhGYBjZmZAgB",
+					talentString = "CEcBAAAAAAAAAAAAAAAAAAAAAMMzMbzMzgZYmZZGzMjZ2AAAAAAAAYmhxMYM1YmZGAAAAMjZMmZWGzMwMMwYGLsADMDDNwCGjZGAYA",
 				},
 				[5] = {
 					label = "Vashnik the Malignant",
