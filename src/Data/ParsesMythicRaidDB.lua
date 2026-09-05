@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.ParsesMythicRaidDB = addonTable.ParsesMythicRaidDB or {}
 
 local talentData = {
-	updated = "2026-09-04 09:44:06",
+	updated = "2026-09-05 09:09:26",
 
 	[1] = {
 		specs = {
@@ -24,7 +24,7 @@ local talentData = {
 			[65] = {
 				[0] = {
 					label = "All Bosses",
-					talentString = "CEEAAAAAAAAAAAAAAAAAAAAAAAAAgZBAmBAAWGzwMjZmZhxY8ALjtZmFz0EzyMmZGGzWGAGA2AbsNzMzysNzMbNAAAALshBbeAYmNAAAzMMjxwA",
+					talentString = "CEEAAAAAAAAAAAAAAAAAAAAAAAAAALAwAAA2mZmZMjZGLGzMDLDmZxMNxsMjZmhxslBgBgNwmZZGzsMbzMzWDAAAwCAsxYMMzYGAAzMMjxwA",
 				},
 				[2] = {
 					label = "Nek'zali the Soulcoiler",
@@ -109,7 +109,7 @@ local talentData = {
 			[258] = {
 				[0] = {
 					label = "All Bosses",
-					talentString = "CIQAAAAAAAAAAAAAAAAAAAAAAMMDDAAAAAAAAAAAAmZxMmZbmxMz2MGzw2MzYmZGbIzYxMNAzAMzmZY2MAkxYBAzMgxMzMmNmZbZAmBDA",
+					talentString = "CIQAAAAAAAAAAAAAAAAAAAAAAMMDGAAAAAAAAAAAghZxMzMLzMmZWmZYGzmZGzMzYhJDLmpBYmZGAIAzystBmNGgBzwYmZGzCzgZGMDGA",
 				},
 				[2] = {
 					label = "Nek'zali the Soulcoiler",
@@ -194,7 +194,7 @@ local talentData = {
 			[62] = {
 				[0] = {
 					label = "All Bosses",
-					talentString = "C4DAAAAAAAAAAAAAAAAAAAAAAYGGLzMzswMDamZGAAAGAwMz0sssMDAgNAAAzMDbWmxMLzYMzMzMswMmZmBAYAAAGgZGwMAYYmZA",
+					talentString = "C4DAAAAAAAAAAAAAAAAAAAAAAMzwYZmZmFMzQzMGAAAGAAAYmZmllZmYBAgtBzMDbWmxMmxYmZmZYhZmZmZAAGAAgZmNAgBADzMD",
 				},
 				[2] = {
 					label = "Nek'zali the Soulcoiler",
@@ -224,7 +224,7 @@ local talentData = {
 			[269] = {
 				[0] = {
 					label = "All Bosses",
-					talentString = "C0QAAAAAAAAAAAAAAAAAAAAAAMzYMYMYbmx2MAAAAAAAAAAAALDz0MmhhxghhZmZGmNmZwyMBAsYmtxMmZmZAAsBAzys0MzMbADDMzAwwAYAD",
+					talentString = "C0QAAAAAAAAAAAAAAAAAAAAAAMzMD2GGsMzMbzAAAAAAAAAAAAsMMCzYbYAzYYmZmhZZYGmlZCAYzMbzMMmZGAAbAwsMLNzMzCAGYmBAWGDYAD",
 				},
 				[2] = {
 					label = "Nek'zali the Soulcoiler",
@@ -274,7 +274,7 @@ local talentData = {
 			[577] = {
 				[0] = {
 					label = "All Bosses",
-					talentString = "CEkAAAAAAAAAAAAAAAAAAAAAAYmZGzMz2MzMzwYEGDAAAAAAYWYegtZmZmZ2mHYGMzDYmtZmFjtBWGMwsw0AzMjNAAAgBAAAwMDGAAAAA",
+					talentString = "CEkAAAAAAAAAAAAAAAAAAAAAAYmZGzMz2MmZmxYmMmZAAAAAAAzmxsNDzMwMWmZmZYmBzyALzmZMMLMNmZGzYDAAAYAAAAMzgBAAAgB",
 				},
 				[2] = {
 					label = "Nek'zali the Soulcoiler",
