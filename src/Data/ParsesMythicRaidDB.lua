@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.ParsesMythicRaidDB = addonTable.ParsesMythicRaidDB or {}
 
 local talentData = {
-	updated = "2026-09-05 09:09:26",
+	updated = "2026-09-06 09:31:06",
 
 	[1] = {
 		specs = {
@@ -144,7 +144,7 @@ local talentData = {
 			[252] = {
 				[0] = {
 					label = "All Bosses",
-					talentString = "CwPAAAAAAAAAAAAAAAAAAAAAAAYmhZMzYY2MzMTDzMzMzYAAAAAAAAYmxMGAsMjZmNzMGzA2MbGGYgZjhGLYAzAwYmZMDwMzMGD",
+					talentString = "CwPAAAAAAAAAAAAAAAAAAAAAAAwMMjZGDz2MzMTz2MzYMjBAAAAAAAgZGGDAWmxMzmZGzMDYzsYYgBmNGasgBMDAjZmxMAzMjZMA",
 				},
 				[2] = {
 					label = "Nek'zali the Soulcoiler",
