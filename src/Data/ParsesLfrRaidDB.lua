@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.ParsesLfrRaidDB = addonTable.ParsesLfrRaidDB or {}
 
 local talentData = {
-	updated = "2026-09-07 10:28:20",
+	updated = "2026-09-08 09:49:24",
 
 	[1] = {
 		specs = {
@@ -320,11 +320,11 @@ local talentData = {
 				},
 				[3] = {
 					label = "Entombed Sentinels",
-					talentString = "CQQAAAAAAAAAAAAAAAAAAAAAAAgx2MMzMzMzsNzMjZMmF4BmZbaZw2MAAAAAAbbzMzwMzMziZmZbAAAAYmBAjZxwADMLsQLsxAMzgBG",
+					talentString = "CQQAAAAAAAAAAAAAAAAAAAAAAAgx2MMzMzMzsNzMjZmxsAmZbaZw2MAAAAAAbbzMzwMzMziZmZbAAAAYmBAjZxwADMLsQLsxAMzgBG",
 				},
 				[5] = {
 					label = "Vashnik the Malignant",
-					talentString = "CQQAAAAAAAAAAAAAAAAAAAAAAAgx2MMzMmZmtZmZmZMmF4BmZbaZw2MAAAAAAbbzMzwMzMziZmZbAAAAYmBAjZxwADMLsQLsxAMzgBG",
+					talentString = "CQQAAAAAAAAAAAAAAAAAAAAAAAgx2MMzMzMzsNzMjZmxsAmZbaZw2MAAAAAAbbzMzwMzMziZmZbAAAAYmBAjZxwADMLsQLsxAMzgBG",
 				},
 				[6] = {
 					label = "Sszorak",
@@ -848,7 +848,7 @@ local talentData = {
 				},
 				[3] = {
 					label = "Entombed Sentinels",
-					talentString = "CwQAAAAAAAAAAAAAAAAAAAAAAAAAAwMbbGDGzGziZmZMAAAAAAAWgJMDMjBmBzMzMMbMzYmthltZZb2YmFAAYDAAAMbzSzMzsxwCDYmhpBwwAwA",
+					talentString = "CwQAAAAAAAAAAAAAAAAAAAAAAAAAAwMbbGz4BGWmxGmZMAAAAAAALLYmYmBmhxGMmZmZY2GzMGLDLb22mtZMLAAwGAAAY2mlmZmZxMsBwMDTjBAAMA",
 				},
 				[4] = {
 					label = "The Lost Explorers",

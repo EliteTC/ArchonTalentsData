@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.ParsesHeroicRaidDB = addonTable.ParsesHeroicRaidDB or {}
 
 local talentData = {
-	updated = "2026-09-07 10:28:20",
+	updated = "2026-09-08 09:49:24",
 
 	[1] = {
 		specs = {
@@ -45,7 +45,7 @@ local talentData = {
 				},
 				[9] = {
 					label = "Ula'tek",
-					talentString = "CcEAAAAAAAAAAAAAAAAAAAAAAgZmZmFzYmZGAAAghphZYmxyMzMzYmxMDAAAAgZWmZgJMW2GYDMgZYCMwGYmhx2ALzsNAzMAYGGA",
+					talentString = "CcEAAAAAAAAAAAAAAAAAAAAAAgZmZmFzYmZGAAAghphZGzMWmZmZGMmZAAAAAMzyMDMhxy2ALgBMDTgZwGYmhx2ALzsNAzMAYGGA",
 				},
 			},
 			[72] = {
@@ -373,6 +373,10 @@ local talentData = {
 					label = "The Coiled Altar",
 					talentString = "C8PAAAAAAAAAAAAAAAAAAAAAAMWgBmxoxyAYGwmxMzYYZAAAAAAYGzYGMGzYGMmmBAAAYAwMWWmZmFzMzMzMzAAzYhZxYMjNDA",
 				},
+				[9] = {
+					label = "Ula'tek",
+					talentString = "C8PAAAAAAAAAAAAAAAAAAAAAAMWgBmxoxyAYGw2MzMzYMbzDAAAAAAYGzYGMGzYGMmmBAAAYAgxyyMjFjZmZmZGAYGbMLGjZmNDA",
+				},
 			},
 		},
 	},
@@ -418,7 +422,7 @@ local talentData = {
 				},
 				[9] = {
 					label = "Ula'tek",
-					talentString = "CMQAAAAAAAAAAAAAAAAAAAAAAYmlxsYwAAAAAAzygtZAAAAAAZZmZmZmZMWmZmZbmlZmZmHYMzYMMzYMAGYBmxoxsBYbAbGAMzMGD",
+					talentString = "CMQAAAAAAAAAAAAAAAAAAAAAAYmlZmFDGAAAAAYWGsNDAAAAAottZmZmZmxYZmZmtZWmZGzDMmZMGmZMGADsAzY0Y2AsNgNjFAzMDGA",
 				},
 			},
 			[260] = {
@@ -458,6 +462,10 @@ local talentData = {
 					label = "The Coiled Altar",
 					talentString = "CQQAAAAAAAAAAAAAAAAAAAAAAAgx2MMzMmZmtZmZmZMmF4BmZbaZw2MAAAAAAbbzMzwMzMziZmZbAAAAMjBAjZxwADMLsQLsxAMzgBG",
 				},
+				[9] = {
+					label = "Ula'tek",
+					talentString = "CQQAAAAAAAAAAAAAAAAAAAAAAAgx2MmZmxMzsNzMjZmxsAPwMmWGsNDAAAAAgtZmZYmZmZxMzsNAAAAmxAgxsYYgBmFWoF2YAmZwAzA",
+				},
 			},
 			[261] = {
 				[0] = {
@@ -495,6 +503,10 @@ local talentData = {
 				[8] = {
 					label = "The Coiled Altar",
 					talentString = "CUQAAAAAAAAAAAAAAAAAAAAAAAgx2MAAAAAwsMGLTMbbjxMDDzMzMzw8AbzYGbbzMzMzMjBjZ2GAAAAGMmFzyADYBsMMBmFMDzMAzYA",
+				},
+				[9] = {
+					label = "Ula'tek",
+					talentString = "CUQAAAAAAAAAAAAAAAAAAAAAAAgx2MAAAAAwsMGLTMbbjxMDDzMzMzw8AbzYGbbzMzMzMjBjZ2GAAAAGMmNzyADYBsMMBmFMDzMAzYA",
 				},
 			},
 		},
@@ -664,7 +676,7 @@ local talentData = {
 				},
 				[9] = {
 					label = "Ula'tek",
-					talentString = "CoPAAAAAAAAAAAAAAAAAAAAAAwYWGzMmxMzMMbzMz0MbmZMmxAAAAAmZmZmZmZYGDAYmZmZGAAADMwMW0YZDw2A2AMjZAAAzMYwA",
+					talentString = "CoPAAAAAAAAAAAAAAAAAAAAAAwMzyMzwMmZmhZbmZmmZxYmxMmBAAAAmhZmZmZMGjBAzMzMzAAAYgBmxiGLbA2GwGgZMAAAzMAGA",
 				},
 			},
 			[251] = {
@@ -875,7 +887,7 @@ local talentData = {
 				},
 				[9] = {
 					label = "Ula'tek",
-					talentString = "CgQAAAAAAAAAAAAAAAAAAAAAAAAAAgBAAAAzMzsssNjZGjZGzMYsALwMW0YbAMDsZGmhZbMmpZbZmZzMzsxi5BmZMYWGAAAYmZwMDAMYG",
+					talentString = "CgQAAAAAAAAAAAAAAAAAAAAAAAAAAgBAAAAzMzsssNzMDjZGzMYsAbwMW0YbAMDsZGmBbjxMNbLzMbmZmFWMzMjBzyAAAAzMDmZAgBzA",
 				},
 			},
 		},
@@ -1067,7 +1079,7 @@ local talentData = {
 				},
 				[9] = {
 					label = "Ula'tek",
-					talentString = "CoQAAAAAAAAAAAAAAAAAAAAAAYmxMzoZbMMzMzsMAAAAAAAgxMGWgB2G2ohFjZGLz2MzMmBAmZMzMmZAMzwMAAAjZmZMMsMjBMA",
+					talentString = "CoQAAAAAAAAAAAAAAAAAAAAAAYMzMzoZjhZmZmlBAAAAAAAMmxwCMw2wCNsYMzYZWmZmxMAwMjZmxMDgZGjBAAYMzMzMMsMjBMA",
 				},
 			},
 			[267] = {
@@ -1184,6 +1196,10 @@ local talentData = {
 					label = "The Coiled Altar",
 					talentString = "C0QAAAAAAAAAAAAAAAAAAAAAAMzYM2GmhlZGbzAAAAAAAAAAAAsMMCzwwAmZGmZmZY2GmhZZmAAWMz2MjZmZmBAwGAMLzSzMzsAgBmZAYsMAGwFA",
 				},
+				[9] = {
+					label = "Ula'tek",
+					talentString = "C0QAAAAAAAAAAAAAAAAAAAAAAMzYM2GGsMzMbzAAAAAAAAAAAAsMMTYGGGwMGmZmZY2GmhZZmAAWMz2MzYMzMAAWMzysMmAAAGDgZAGLDEzMzmLA",
+				},
 			},
 			[270] = {
 				[0] = {
@@ -1243,7 +1259,7 @@ local talentData = {
 				},
 				[2] = {
 					label = "Nek'zali the Soulcoiler",
-					talentString = "CYGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWoMbNjxMDwsMzMzMYYGjZWmhxMWYZmlZGjZ2wAgx2yMDGz2AYCAAAwiZmZmBbGGjZAAMzglBA",
+					talentString = "CYGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWoMbNjxMDwswMzMYYGjZWmZxMzYhlZWGjZGLYYAGbbzMYMbDgJAAAALmZmZGsZMjxMAAmZgBA",
 				},
 				[3] = {
 					label = "Entombed Sentinels",
@@ -1271,7 +1287,7 @@ local talentData = {
 				},
 				[9] = {
 					label = "Ula'tek",
-					talentString = "CYGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWoMbNjxMDwsMzMzMYYGjZWmZxMzYhlZWGjZGLYYAGbLzMYMbDgJAAAALMzMzgNDjxMAAmZgBA",
+					talentString = "CYGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWoMLNjxMD8AmlZmZmBDzYMzyMLmZGLsMzyYMzYBDDwYbbmBjZbAMBAAAYhZmZGsZgxMAAmZgBA",
 				},
 			},
 			[103] = {
@@ -1349,7 +1365,7 @@ local talentData = {
 			[105] = {
 				[0] = {
 					label = "All Bosses",
-					talentString = "CkGAAAAAAAAAAAAAAAAAAAAAAMjxMbzMjZmxsNMYmFjNmBAAAAAAAAAAbDa2MjpZGDPgZZMzMziJzAAAAAAAAAbbjFMNzsMAAAAWYMzgZGY0MAYmBAMA",
+					talentString = "CkGAAAAAAAAAAAAAAAAAAAAAAYMmZZmZMzMmthhxsZsNmBAAAAAAAAAALDa2MjpZGDPgZxMzMDTmZAAAAAAAAAAAAAMbzs0sNzmNGzMwMLgmBAYmBgB",
 				},
 				[1] = {
 					label = "Nymrissa Wavecaller",
@@ -1382,6 +1398,10 @@ local talentData = {
 				[8] = {
 					label = "The Coiled Altar",
 					talentString = "CkGAAAAAAAAAAAAAAAAAAAAAAMjxMLzMjZmxsNMYmNjNmBAAAAAAAAAALDaYGTzMGGzyMzMzwkZAAAAAAAAAAAAAY2mZpZbmNbMmZwMDMaGAgZGAGA",
+				},
+				[9] = {
+					label = "Ula'tek",
+					talentString = "CkGAAAAAAAAAAAAAAAAAAAAAAYMmZZmZMzMmthhxsZsNmBAAAAAAAAAALDa2MjpZGDPgZxMzMDTmZAAAAAAAAAAAAAMbzs0sNzmNGzMwMLgmBAYmBgB",
 				},
 			},
 		},
@@ -1428,7 +1448,7 @@ local talentData = {
 				},
 				[9] = {
 					label = "Ula'tek",
-					talentString = "CEkAAAAAAAAAAAAAAAAAAAAAAYmZGzMz2MmZmxMzkxMDAAAAAAYWMzsNDMYmxyMjZYmxYWGYbWMjhZjpxMzMDbAAAAAAAAMzgBAAAgB",
+					talentString = "CEkAAAAAAAAAAAAAAAAAAAAAAYmZGzMzmxMzMmZmMmZAAAAAAAzyDMmtZYmBzMWmZMDzMGzyALziZMMbMNmZGDbAAAAAAAAMzgBAAAgB",
 				},
 			},
 			[581] = {
@@ -1467,6 +1487,10 @@ local talentData = {
 				[8] = {
 					label = "The Coiled Altar",
 					talentString = "CUkAAAAAAAAAAAAAAAAAAAAAAAAYMzMzMzMjMzMYWMzMDmZMzYGzMzYwMzMWMzYMMAAAAAAAAMzM2AAAAwAzMzMzWbzMzAADAAAgB",
+				},
+				[9] = {
+					label = "Ula'tek",
+					talentString = "CUkAAAAAAAAAAAAAAAAAAAAAAAAMjZmZMmZkZmBziZmZgZMzYGzMzYYmZmxmZmtxAAAAAAAAAmZGbAAAAYwMzMzMbtNzMDAMAAAAG",
 				},
 			},
 			[1480] = {
@@ -1553,6 +1577,10 @@ local talentData = {
 					label = "The Coiled Altar",
 					talentString = "CsbBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjZgZYGzMgBjZamZmpZM2mxMzMzMzMzAmxMGzMLzMDMwYwGsMGN2GAzggNMwMDGG",
 				},
+				[9] = {
+					label = "Ula'tek",
+					talentString = "CsbBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjZGmZYGzMMGYMTjZmJjx2YmZGmZmZGwMmxYmZZmZwMwMmBWALgZYCsBWGGAzMDD",
+				},
 			},
 			[1468] = {
 				[0] = {
@@ -1593,7 +1621,7 @@ local talentData = {
 				},
 				[9] = {
 					label = "Ula'tek",
-					talentString = "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAMzMDmZMYGzmhZmZbAAAMjZMYGzIzMDAAAwMzMZmZmxsMzMAYGzALgFwMMB2MsZYAMzMGA",
+					talentString = "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAMzMDmZMYGzmZMzMbDAAgZMjBzYGZmZAAAAmZmJzMzMmlZmBAzYGYBsAmhJwGsZYAMzMGA",
 				},
 			},
 			[1473] = {
