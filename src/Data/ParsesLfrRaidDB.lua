@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.ParsesLfrRaidDB = addonTable.ParsesLfrRaidDB or {}
 
 local talentData = {
-	updated = "2026-09-10 09:50:50",
+	updated = "2026-09-12 09:27:31",
 
 	[1] = {
 		specs = {
@@ -300,6 +300,10 @@ local talentData = {
 				[0] = {
 					label = "All Bosses",
 					talentString = "C8PAAAAAAAAAAAAAAAAAAAAAAMgxMGWgNYGGawyMmZMzMbzAAAAAAYmZmZGmxYGzgZmmBAAAAAMW2m5BmlZMzYMGAzsAYZGGjNDA",
+				},
+				[2] = {
+					label = "Nek'zali the Soulcoiler",
+					talentString = "C8PAAAAAAAAAAAAAAAAAAAAAAMgxMG2gNYGGawixMzMzYZAAAAAAYGzMzYzYMjZwYaGAAAgBAGLbzMziZmZGzYMgZ2AGGjZsZAA",
 				},
 				[3] = {
 					label = "Entombed Sentinels",
