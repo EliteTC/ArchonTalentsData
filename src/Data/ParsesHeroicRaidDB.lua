@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.ParsesHeroicRaidDB = addonTable.ParsesHeroicRaidDB or {}
 
 local talentData = {
-	updated = "2026-09-13 10:23:44",
+	updated = "2026-09-14 10:46:54",
 
 	[1] = {
 		specs = {
@@ -587,7 +587,7 @@ local talentData = {
 				},
 				[8] = {
 					label = "The Coiled Altar",
-					talentString = "CEQAAAAAAAAAAAAAAAAAAAAAAADAAAAAAYBmZ2GzMmZMMDzsMzYGAAAAjZWmBzMzwMmZAMTNAmZBDhxsNAjBWMzMLAMjZGjBzAMzMgB",
+					talentString = "CEQAAAAAAAAAAAAAAAAAAAAAAADAAAAAAYBmZWGzMmZMMDzsMzYGAAAAzYWmBzMzwMMDgZqBwMLYIMmlBYMwiZmZBgZMGjhZGgZmZgB",
 				},
 				[9] = {
 					label = "Ula'tek",
@@ -1079,7 +1079,7 @@ local talentData = {
 				},
 				[8] = {
 					label = "The Coiled Altar",
-					talentString = "CoQAAAAAAAAAAAAAAAAAAAAAAwMzMzoZjhZmxsNAAAAAAAgxMGWgB2G2ohFjxYZWmZmxMAwMjZmZmZAGzYmBAAYMzMzMMsMjBMA",
+					talentString = "CoQAAAAAAAAAAAAAAAAAAAAAAsZGmZ0sZmZzMzMLDAAAAAAAYMjhFYgthFaYxYmxysMzMjZAgZGzMjZGgxMmxGAAYMzMjhhlZMgB",
 				},
 				[9] = {
 					label = "Ula'tek",
