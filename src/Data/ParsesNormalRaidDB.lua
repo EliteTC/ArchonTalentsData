@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.ParsesNormalRaidDB = addonTable.ParsesNormalRaidDB or {}
 
 local talentData = {
-	updated = "2026-09-13 10:23:44",
+	updated = "2026-09-15 10:11:09",
 
 	[1] = {
 		specs = {
@@ -607,7 +607,7 @@ local talentData = {
 				},
 				[8] = {
 					label = "The Coiled Altar",
-					talentString = "CEQAAAAAAAAAAAAAAAAAAAAAAwYAAAAAAAgZmlxMjZmZYmZYZGmBAAAwwsMDzMzMYGzAYmaAgZWMDziBAGD2MzMbAaGmxYYmZbZAmBGA",
+					talentString = "CEQAAAAAAAAAAAAAAAAAAAAAAADAAAAAAYBmZWGzMmZMMDzsMzYGAAAAzYWmBzMzwMMDgZqBwMbYIMmlBYMwiZmZBgZMGjhZGgZmZgB",
 				},
 				[9] = {
 					label = "Ula'tek",
@@ -1304,7 +1304,7 @@ local talentData = {
 				},
 				[8] = {
 					label = "The Coiled Altar",
-					talentString = "C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghx2YZYzixMzyyM2wYGmZZZbmxCzoZMDYwgxYmZmhZbMGsYCAAAAAAWsMzysNzEAAGwAMDYMMWkxMA",
+					talentString = "C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghx2MwmFzYmllZshZmhZWWWmZswYaGzAGjhBLzDMzMMLDeAmlHYCAAAAAAWsMzysNzEAAGwAMDYMMWkxMA",
 				},
 				[9] = {
 					label = "Ula'tek",
