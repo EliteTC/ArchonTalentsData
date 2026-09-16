@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.ParsesMythicDB = addonTable.ParsesMythicDB or {}
 
 local talentData = {
-	updated = "2026-09-15 10:11:09",
+	updated = "2026-09-16 10:03:44",
 
 	[1] = {
 		specs = {
@@ -267,7 +267,7 @@ local talentData = {
 				},
 				[5] = {
 					label = "Voidscar Arena",
-					talentString = "C0PAAAAAAAAAAAAAAAAAAAAAAAMmxwCsBzwQDbAAYGPwMzsMzwMzMjZGMzYmhZGzMzYbmZYMDLDNDAAAAAAAAmHYMzAmZDAzCYbAYA",
+					talentString = "C0PAAAAAAAAAAAAAAAAAAAAAAAMmxwCsBzwQDbAAYGzMzsYGzMzMjZGMzYmhZGzMzYbmZYMDLDNDAAAAAAAAmHYMzAmZDAzCYbAYA",
 				},
 				[6] = {
 					label = "Den of Nalorakk",
@@ -366,7 +366,7 @@ local talentData = {
 			[259] = {
 				[0] = {
 					label = "All Dungeons",
-					talentString = "CMQAAAAAAAAAAAAAAAAAAAAAAYmlZmFDGAAAAAYWGsNDAAAAAIbzMzMzMjxyMzMbzsMzMPgZMzYMMzYMAbmlBGwCYZYCMsYwMDwYMA",
+					talentString = "CMQAAAAAAAAAAAAAAAAAAAAAAYmlZmFDAAAAAAzygtZAAAAAAttNzMzMzMGLzMzsNzyMz8AmxMjxMmZMGgNzyADYBsMMBGWMYmBwM+AA",
 				},
 				[1] = {
 					label = "Kings' Rest",
@@ -398,7 +398,7 @@ local talentData = {
 				},
 				[8] = {
 					label = "Altar of Fangs",
-					talentString = "CMQAAAAAAAAAAAAAAAAAAAAAAYmlxsYwAAAAAAzygtZAAAAAAttMzMzMzMGLzMzsNzyMzMzDMmZMGmZMGgNzyADYBsMMBGWMYmBYwA",
+					talentString = "CMQAAAAAAAAAAAAAAAAAAAAAAYmlZmFDAAAAAAzygtZAAAAAAttNzMzMzMGLzMzsNzyMz8AmxMjxMmZMGgNzyADYBsMMBGWMYmBwM+AA",
 				},
 			},
 			[260] = {
@@ -454,7 +454,7 @@ local talentData = {
 				},
 				[3] = {
 					label = "Ruby Life Pools",
-					talentString = "CUQAAAAAAAAAAAAAAAAAAAAAAAgx2MAAAAAwsMGLTMbbjxMDjZmZmZGGbzYGbbzMzMzMjBjZ2GAAAAGMmFzyADYBsMMBmFMDzMAzYA",
+					talentString = "CUQAAAAAAAAAAAAAAAAAAAAAAAgx2MAAAAAwsMGLTMbLjxMDjZmZmZGGbzYGbbzMzMzMjBjZ2GAAAAGMmFzyADYBsMMBmFMDzMAzYA",
 				},
 				[4] = {
 					label = "The Blinding Vale",
@@ -1007,7 +1007,7 @@ local talentData = {
 				},
 				[2] = {
 					label = "Temple of Sethraliss",
-					talentString = "CoQAAAAAAAAAAAAAAAAAAAAAAYmhZGNbmx2MzYWGAAAAAAAwYGDLwAbDb0wixMjlZbmZGzAAzMGzMzMAzMDzsBAAGzMzYYYZGDYA",
+					talentString = "CoQAAAAAAAAAAAAAAAAAAAAAAwMMzoZzMz2MzYWGAAAAAAAwYGDLwAbDL0wixMjlZbmZGzAAzMGzMzMAjZMzsBAAGzMzYYYZGDYA",
 				},
 				[3] = {
 					label = "Ruby Life Pools",
@@ -1418,7 +1418,7 @@ local talentData = {
 				},
 				[6] = {
 					label = "Den of Nalorakk",
-					talentString = "CUkAAAAAAAAAAAAAAAAAAAAAAAAYMzMjhZkZmBWMjZwMjZGz8AzMzYYmZmx2YGjxMAAAAAAAAMzM2AAAAwAzMzMzSbzMzAgZAAAAMA",
+					talentString = "CUkAAAAAAAAAAAAAAAAAAAAAAAAMjxMjhZkZmxYMzMzAGzMzYmZmxAzMjtHYmZbMmBAAAgZbGMMWWYCDzMzsAAAAgBGAAMzAAAAAwA",
 				},
 				[7] = {
 					label = "Murder Row",

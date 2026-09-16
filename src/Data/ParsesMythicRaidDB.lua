@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.ParsesMythicRaidDB = addonTable.ParsesMythicRaidDB or {}
 
 local talentData = {
-	updated = "2026-09-11 09:49:32",
+	updated = "2026-09-16 10:03:44",
 
 	[1] = {
 		specs = {
@@ -18,6 +18,16 @@ local talentData = {
 				[4] = {
 					label = "The Lost Explorers",
 					talentString = "CcEAAAAAAAAAAAAAAAAAAAAAAAzMzsMzYmZGAAAghphZGzMWmZmZGMmZAAAAAMzyMDMhxy2ALgBMDTgZwGYmhx2ALzsNAzMAYGGA",
+				},
+			},
+			[73] = {
+				[0] = {
+					label = "All Bosses",
+					talentString = "CkEAAAAAAAAAAAAAAAAAAAAAAkBAAGzYmZmZmxsZmZZGjxoxMGWmZmZGzMGDAAAAWmZAmxAMwGssY0YGAzCmZDYmZwAAmZAAYGYMA",
+				},
+				[4] = {
+					label = "The Lost Explorers",
+					talentString = "CkEAAAAAAAAAAAAAAAAAAAAAAkBAAGzMmZmZmxsZmZZGPgxMNMzMWmZmZGwMDAAAAMzAMzyAMwGssY0YGAzGmZDDmZYmNAYmBAADMG",
 				},
 			},
 		},
@@ -50,7 +60,7 @@ local talentData = {
 				},
 				[4] = {
 					label = "The Lost Explorers",
-					talentString = "CYEAAAAAAAAAAAAAAAAAAAAAAAAAAAwoZbbmZWGzYGAAAAAAzUmlZYmx2Y2GmZbGzMGDzYhNAMLz2Mzs1AAAALAGAwMbAzYmZDYmZMjhBD",
+					talentString = "CYEAAAAAAAAAAAAAAAAAAAAAAAAAAAwoZbbmZWGzMzAAAAAAYmyYGmZsNmthZ2mxYMGmxCbAYWmtZmZrBAAAWAMAYMDDMjZmNgZmhxMGMA",
 				},
 			},
 		},
@@ -75,11 +85,15 @@ local talentData = {
 			[254] = {
 				[0] = {
 					label = "All Bosses",
-					talentString = "C4PAAAAAAAAAAAAAAAAAAAAAAwCMwMGNWGAzgNAAAAAAAAwMmxMLbzYmZMDeATzYwsttMzMzMzMzMYmlhZAAAGzMjBwM2YYA2YmtZMA",
+					talentString = "C4PAAAAAAAAAAAAAAAAAAAAAAwCMwMGNWGAzgNAAAAAAAAwMmZmhZMzMmBjpZMY222mZmZmZmZGMzywMAAAegZGzAYGbMMAbMz2MG",
 				},
 				[2] = {
 					label = "Nek'zali the Soulcoiler",
 					talentString = "C4PAAAAAAAAAAAAAAAAAAAAAAwCMwMGNWGAzgNAAAAAAAAwMmxMLbzYmZMDeATzYwsttMzMzMzMzMYmlhZAAAGzMjBwM2YYA2YmtZMA",
+				},
+				[4] = {
+					label = "The Lost Explorers",
+					talentString = "C4PAAAAAAAAAAAAAAAAAAAAAAwCMwMGNWGAzgNAAAAAAAAwMmZmhZMzMmBjpZMY222mZmZmZmZGMzywMAAAegZGzAYGbMMAbMz2MG",
 				},
 			},
 			[255] = {
@@ -112,7 +126,7 @@ local talentData = {
 				},
 				[4] = {
 					label = "The Lost Explorers",
-					talentString = "CMQAAAAAAAAAAAAAAAAAAAAAAYmlxsYwAAAAAAzygtZAAAAAAttNzMzMzMGbzMzsNzyMzMmxMjxwMjxAYgFYGjGzGgtBsBAmZGjB",
+					talentString = "CMQAAAAAAAAAAAAAAAAAAAAAAYmlxsYwAAAAAAzygtZAAAAAAttNzMzMzMGLzMzsNzyMz8AmxMjxwMjxAsZWGYALglhJwwixmZGADD",
 				},
 			},
 			[260] = {
@@ -160,6 +174,16 @@ local talentData = {
 				[4] = {
 					label = "The Lost Explorers",
 					talentString = "CAQAAAAAAAAAAAAAAAAAAAAAAADsMmxyYmxYmHAmZbmZmZmZAAAAAAAAAAYYWmBzMzwMMDYammZwMDAAwsNbLgxmBAgxYmxgZwMDmJYA",
+				},
+			},
+			[257] = {
+				[0] = {
+					label = "All Bosses",
+					talentString = "CEQAAAAAAAAAAAAAAAAAAAAAAwYAAAAAAAMzMmlxMjZGDzALzMzMAAAAGzsMDmZmx2MmZAMTBwMLYIMmtBYMwiZmBAzYmxYwMAzMDYA",
+				},
+				[4] = {
+					label = "The Lost Explorers",
+					talentString = "CEQAAAAAAAAAAAAAAAAAAAAAAADAAAAAAYBmZWGzMmZMMDzsMzYGAAAAzYWmBzMzwMmZMgZKAmZBDhxsMAjBWMzMLAMjZGjBzAMzMgB",
 				},
 			},
 			[258] = {
@@ -239,7 +263,7 @@ local talentData = {
 				},
 				[4] = {
 					label = "The Lost Explorers",
-					talentString = "CYQAAAAAAAAAAAAAAAAAAAAAAAAAAAzMbbzMGjZZbZMmhBAAAAsYmNYADY2YCMLAwsNzMjx2iJMzYsMzMzYGLWmZWGGzMLDAYYAMzYYGfA",
+					talentString = "CYQAAAAAAAAAAAAAAAAAAAAAAAAAAAzMbLzMGjZZbZMmhBAAAAsYmNYADY2YCMLAwsMzMjx2ipNmZ2GLzMzMGWmlxsMMmZWGAwAAzMGmxHA",
 				},
 			},
 			[263] = {
@@ -340,7 +364,7 @@ local talentData = {
 				},
 				[4] = {
 					label = "The Lost Explorers",
-					talentString = "C0QAAAAAAAAAAAAAAAAAAAAAAMzYMgxYZmZ2mxAAAAAAAAAAAALDz0MmhhBMMMzMzwshZYWmJAgFmtxMGzMDAgFzsMbjJAAgxAYGgxyAxMzsZA",
+					talentString = "C0QAAAAAAAAAAAAAAAAAAAAAAMzYMgxYbmZ2mBAAAAAAAAAAAYZYmwMgBMmZMzMzwsNMDzyMBAsYmtxMGzMDAgFzsMLjJAAgxAYGgxyAxMzsZA",
 				},
 			},
 			[270] = {
@@ -449,7 +473,7 @@ local talentData = {
 				},
 				[4] = {
 					label = "The Lost Explorers",
-					talentString = "CsbBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjZgZYGmBMYMTzMzMNjx2MmZmZmZmZGwMmZGzMLzMDMwYwGsMGN2GAzggNMwMDGG",
+					talentString = "CsbBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjZgZYGzMwMYMTjZmpZM2mxMzMzMzMzAmxMGzMLzMDMwYwGsMGN2GAzggNMwMDGG",
 				},
 			},
 			[1468] = {
@@ -460,6 +484,10 @@ local talentData = {
 				[2] = {
 					label = "Nek'zali the Soulcoiler",
 					talentString = "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAMzMDmZMYGzmhZmZbYAAgZMjZMGzIMDAAAwMzIzYmZmlxMAYGzALgFwMMB2MsZYAMzMGA",
+				},
+				[4] = {
+					label = "The Lost Explorers",
+					talentString = "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAMzMDmZMYGzmhZmZbYAAgZMj5BwYGZmZAAAAmZGZmZmxsMzMAYGzALgFwMMB2MsZYAMzMGA",
 				},
 			},
 			[1473] = {
