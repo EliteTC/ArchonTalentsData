@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.ParsesHeroicRaidDB = addonTable.ParsesHeroicRaidDB or {}
 
 local talentData = {
-	updated = "2026-09-20 09:54:05",
+	updated = "2026-09-21 10:51:21",
 
 	[1] = {
 		specs = {
@@ -211,6 +211,10 @@ local talentData = {
 				[8] = {
 					label = "The Coiled Altar",
 					talentString = "CIEAAAAAAAAAAAAAAAAAAAAAAsNDzy8Az8AzMzM2WGjZZMGGAgBAAAAAApZGzMmZYMbtBgBGwMYDAAAAmZW2WaZmxitNmBwYMDjBAzMAYmBZsB",
+				},
+				[9] = {
+					label = "Ula'tek",
+					talentString = "CIEAAAAAAAAAAAAAAAAAAAAAAsNDzyYmZmZmx2yYYZMLzYAAGAAAAAAkmZWmZMzwY2aDADMgZw2AAAAgZmltlWmZsYZDDgxYGGDAmZAgByYB",
 				},
 			},
 			[70] = {
@@ -559,6 +563,10 @@ local talentData = {
 					label = "The Coiled Altar",
 					talentString = "CAQAAAAAAAAAAAAAAAAAAAAAAADsMmxyYmBzgZbmtZmZmZmBAAAAAAAAAgZYZGMzMDzYmBMNTzMYmBAAY2mtFwYzAAwYMzYwMYmBjgB",
 				},
+				[9] = {
+					label = "Ula'tek",
+					talentString = "CAQAAAAAAAAAAAAAAAAAAAAAAADsMmxyYmBzMwMbzMzMzMDAAAAAAAAAADzyMYmZGmZMDYamYwMDAAwsNbbgxmBAgxMzMGMDmZwMBD",
+				},
 			},
 			[257] = {
 				[0] = {
@@ -819,7 +827,7 @@ local talentData = {
 				},
 				[9] = {
 					label = "Ula'tek",
-					talentString = "CYQAAAAAAAAAAAAAAAAAAAAAAAAAAAzMbbzMGjZZbZMmhZAAAAgFzsBDYAzGTgZBAsNzMjx2yMtxMzCLzMzMmBLzMLDjZmFAgZAwMjhhB",
+					talentString = "CYQAAAAAAAAAAAAAAAAAAAAAAAAAAAzMbLzMGjZZbZMmhZAAAAgFzsBDYAzGTgZBAmlZmZM2WmpNmZ2YZmZmxMYZmZZYMzsAAMAwMjhhB",
 				},
 			},
 			[263] = {
