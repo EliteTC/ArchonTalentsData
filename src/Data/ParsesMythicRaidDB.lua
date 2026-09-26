@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.ParsesMythicRaidDB = addonTable.ParsesMythicRaidDB or {}
 
 local talentData = {
-	updated = "2026-09-25 10:18:34",
+	updated = "2026-09-26 09:59:52",
 
 	[1] = {
 		specs = {
@@ -90,7 +90,7 @@ local talentData = {
 				},
 				[2] = {
 					label = "Nek'zali the Soulcoiler",
-					talentString = "CYEAAAAAAAAAAAAAAAAAAAAAAAAAAAwoZbbmZWGzMDAAAAAAzUmlZYmx2Y2GmZbGjxYYGLsNAMLz2Mzs1AAAALAGADmhBmxY2AmZGGDDG",
+					talentString = "CYEAAAAAAAAAAAAAAAAAAAAAAAAAAAwoZZbmZWGmZAAAAAAYmysYYmx2Y2GmZbGjxMDzYhtBgZZ2mZmtGAAAYBwAgxMMwMGzGwMzwYGDG",
 				},
 				[3] = {
 					label = "Entombed Sentinels",
@@ -249,7 +249,7 @@ local talentData = {
 				},
 				[2] = {
 					label = "Nek'zali the Soulcoiler",
-					talentString = "CEQAAAAAAAAAAAAAAAAAAAAAAADAAAAAAYBmZWGzMmZMMDzsMzYGAAAAzYWmBzMzwMMjBMTBwMLYIMmtBYMwiZmZBgZMzYMMzAMzMgB",
+					talentString = "CEQAAAAAAAAAAAAAAAAAAAAAAADAAAAAAYBmZWGzMmZMMDzsMzYGAAAAzYWmBzMzwMMDgZqBwMbYIMmlBYMwiZmZBgZMGjhZGgZmZgB",
 				},
 				[4] = {
 					label = "The Lost Explorers",
@@ -440,6 +440,10 @@ local talentData = {
 					label = "All Bosses",
 					talentString = "CAEAAAAAAAAAAAAAAAAAAAAAAYGGLzMzsMmZmYmZGzMzMziZmZMjZAAAgZmZWWmZaDAA2AAAAbAstMmZmBz2wYGWAAAYmNgZgBMDGA",
 				},
+				[2] = {
+					label = "Nek'zali the Soulcoiler",
+					talentString = "CAEAAAAAAAAAAAAAAAAAAAAAAYGGLzMzsMmZmYmZGzMzMziZmZMjZAAAgZmZWWmZaDAAAAAA2AYbZMzMDmthxMsBAAwMbAzADYGMMA",
+				},
 				[3] = {
 					label = "Entombed Sentinels",
 					talentString = "CAEAAAAAAAAAAAAAAAAAAAAAAwwYZmZmFmZEzMzYmZmZWMzMjZMDAAAMzMzyyMTbAAAAAAwGAbLjZmZGmthxMsAAAwMbAzgZAzghB",
@@ -604,7 +608,7 @@ local talentData = {
 			[577] = {
 				[0] = {
 					label = "All Bosses",
-					talentString = "CEkAAAAAAAAAAAAAAAAAAAAAAYmZGzMz2MmZmxYmMmZAAAAAAAzmxsNDzMwMWmZmZYmBzyALzmZMMLMNmZGzYDAAAYAAAAMzgBAAAgB",
+					talentString = "CEkAAAAAAAAAAAAAAAAAAAAAAYAzMzmxMzMmZmMmZAAAAAAAzyDMmtZYmxyMzYZm5BmZWmZWGjBWmFzYY2YaYmxwGAAAAAAAAzMYAAAAYA",
 				},
 				[2] = {
 					label = "Nek'zali the Soulcoiler",
