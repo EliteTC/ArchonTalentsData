@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.ParsesMythicRaidDB = addonTable.ParsesMythicRaidDB or {}
 
 local talentData = {
-	updated = "2026-09-26 09:59:52",
+	updated = "2026-09-28 11:48:58",
 
 	[1] = {
 		specs = {
@@ -371,7 +371,7 @@ local talentData = {
 			[263] = {
 				[0] = {
 					label = "All Bosses",
-					talentString = "CcQAAAAAAAAAAAAAAAAAAAAAAMzMzgZmZmZmhZmZAAAAAAAAA2AsZGDbwCMDDNYBgZZGzYstYsxMzGLzMzMDMmBAYGGzMmZCMzgBjB",
+					talentString = "CcQAAAAAAAAAAAAAAAAAAAAAAMzMzgZmZmZmhZmZAAAAAAAAA2AsZGDbwCMDDNYBgZZGzMjtFjFmZ2GLzMzMDWYAAMDjZGmJwMDGMGA",
 				},
 				[2] = {
 					label = "Nek'zali the Soulcoiler",
@@ -379,7 +379,7 @@ local talentData = {
 				},
 				[4] = {
 					label = "The Lost Explorers",
-					talentString = "CcQAAAAAAAAAAAAAAAAAAAAAAMzMzgZmZmZmhZmZAAAAAAAAA2AsZGDbwCMDDNYBgZZGzYstYsxMzGLzMzMDMmBAYGGzMmZCMzgBjB",
+					talentString = "CcQAAAAAAAAAAAAAAAAAAAAAAMzMzgZmZmZmhZmZAAAAAAAAA2AsZGDbwCMDDNYBgZZGzMjtFjFmZ2GLzMzMDWYAAMDjZGmJwMDGMGA",
 				},
 				[5] = {
 					label = "Vashnik the Malignant",
@@ -577,6 +577,10 @@ local talentData = {
 					label = "Nek'zali the Soulcoiler",
 					talentString = "CgGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgZmxsYmZMziZxMmZZZgZzwoJamZWmZmZmlxMAAAAAAMjNDYZbmBjZZAMBAAAshZGgFjhBsYBgZGAD",
 				},
+				[4] = {
+					label = "The Lost Explorers",
+					talentString = "CgGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgZmxsYGjZ2MLGMLLDMbwoJamZWmZmZGjZMDAAAAAYGLzAW2mZwY2GATAAAAbYmBYxMYAbW2GgZGAD",
+				},
 			},
 			[105] = {
 				[0] = {
@@ -697,7 +701,7 @@ local talentData = {
 				},
 				[4] = {
 					label = "The Lost Explorers",
-					talentString = "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAMzMDmZMYGzmhZmZbYAAgZMj5BwYGZmZAAAAmZGZmZmxsMzMAYGzALgFwMMB2MsZYAMzMGA",
+					talentString = "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAMzMDmZMYGzmhZmZbYAAgZmZMDGzIzMDAAAwMzoZGzMmlZGAYGzALgFwMMB2MsZYAMzMGA",
 				},
 			},
 			[1473] = {
