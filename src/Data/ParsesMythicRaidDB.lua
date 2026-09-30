@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.ParsesMythicRaidDB = addonTable.ParsesMythicRaidDB or {}
 
 local talentData = {
-	updated = "2026-09-29 11:25:38",
+	updated = "2026-09-30 11:14:08",
 
 	[1] = {
 		specs = {
@@ -143,7 +143,7 @@ local talentData = {
 				},
 				[5] = {
 					label = "Vashnik the Malignant",
-					talentString = "C4PAAAAAAAAAAAAAAAAAAAAAAwCMwMGNWGAzgNAAAAAAAAwMmZmBjZmxMYoZMY222mZmZmZmZGMzywMAAAzMzYGAzYDLGgNmZbGD",
+					talentString = "C4PAAAAAAAAAAAAAAAAAAAAAAwCMwMGNWGAzgNAAAAAAAAwMmZmBjZmxMYMNjBz222MzMzMzMzgZWGmBAAYmZmxAYGbgBYjZ2mxA",
 				},
 			},
 			[255] = {
@@ -399,7 +399,7 @@ local talentData = {
 				},
 				[5] = {
 					label = "Vashnik the Malignant",
-					talentString = "CcQAAAAAAAAAAAAAAAAAAAAAAMzMzgZmZmZmhZmZAAAAAAAAA2AsZGDbwCMDDNYBgZZGzYssYsxMz2YZmZmZwCzAAMDjZGmJwMDGMGA",
+					talentString = "CcQAAAAAAAAAAAAAAAAAAAAAAMzMzgZmZmZmhZmZAAAAAAAAA2AsZGDbwCMDDNYBgZbGzYssYsxMz2YZmZmZwCzAAMDjZGmJwMDGMGA",
 				},
 			},
 			[264] = {
@@ -421,7 +421,7 @@ local talentData = {
 				},
 				[5] = {
 					label = "Vashnik the Malignant",
-					talentString = "CgQAAAAAAAAAAAAAAAAAAAAAAAAAAgBAAAAzMzsssNzMDjZGzMYsAbwMW0YbAMDsZGmBbzMmpZbZmhZmZhFzMzYwsMAAAwMzgZGAYwM",
+					talentString = "CgQAAAAAAAAAAAAAAAAAAAAAAAAAAgBAAAAzMzsssNjZGjZGzMYsAbwMW0YbAMDsZGmBbjZmpZbZmZzMmNWm5BMjZYWGAAAYmZwMDAMYG",
 				},
 			},
 		},

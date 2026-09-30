@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.ParsesLfrRaidDB = addonTable.ParsesLfrRaidDB or {}
 
 local talentData = {
-	updated = "2026-09-22 10:06:03",
+	updated = "2026-09-30 11:14:08",
 
 	[1] = {
 		specs = {
@@ -1076,7 +1076,7 @@ local talentData = {
 			[268] = {
 				[0] = {
 					label = "All Bosses",
-					talentString = "CwQAAAAAAAAAAAAAAAAAAAAAAAAAAwMLbGDzwyM2MmZMAAAAAAALLwEzMwMMYGMzMzwsNMjZWGW2stNbzYWAAgNAAAwsNLNzMzGDbAMzw0YADAYA",
+					talentString = "CwQAAAAAAAAAAAAAAAAAAAAAAAAAAgZbzYGPwYWM2mxMDAAAAAAALLYEmBmhxmZMmZmZMzywMmZZYZzy2sNMLAAwysMtMbzsMAAAAzwGYmBMNGAAwA",
 				},
 				[2] = {
 					label = "Nek'zali the Soulcoiler",
@@ -1394,7 +1394,7 @@ local talentData = {
 				},
 				[3] = {
 					label = "Entombed Sentinels",
-					talentString = "CUkAAAAAAAAAAAAAAAAAAAAAAAAYMzMjhZkZmBWMjZwMjZGz8AzMzYYmZmx2YGjxMAAAAAAAAMzM2AAAAwAzMzMzSbzMzAgZAAAAMA",
+					talentString = "CUkAAAAAAAAAAAAAAAAAAAAAAAAMjZmZMzMjMzMYWMzMDMjZGzYGzMDzMzM2GzsNGAAAAAAAAwMzYDAAAADGzMzMbtNzMDAAAAAwA",
 				},
 				[4] = {
 					label = "The Lost Explorers",
@@ -1440,7 +1440,7 @@ local talentData = {
 				},
 				[5] = {
 					label = "Vashnik the Malignant",
-					talentString = "CgcBAAAAAAAAAAAAAAAAAAAAAAAWMzMzMzMzMwMAAAAAAAegxsNYGAAAAAAAAmxMMPwMzMzMzMzYmtZGjNttAAADgxMzsNzMNbzsMzMGzA",
+					talentString = "CgcBAAAAAAAAAAAAAAAAAAAAAAAWmZmZmZGjxwMAAAAAAALGz2gZAAAAAAAAYGzw8AzMzMzMzMMz2MjxmsAAADwMmZmtZmpZZmlZmhZGA",
 				},
 				[6] = {
 					label = "Sszorak",
