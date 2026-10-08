@@ -1,9 +1,9 @@
 {
   "source": "parses",
-  "builds": 1676,
+  "builds": 1677,
   "perSource": {
-    "parses.gg": 1676
+    "parses.gg": 1677
   },
   "gameBuild": "12.1.0.69382",
-  "generatedAt": "2026-10-06 12:06:29"
+  "generatedAt": "2026-10-08 12:07:11"
 }
