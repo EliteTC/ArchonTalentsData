@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.ParsesMythicDB = addonTable.ParsesMythicDB or {}
 
 local talentData = {
-	updated = "2026-10-09 11:59:37",
+	updated = "2026-10-10 11:15:24",
 
 	[1] = {
 		specs = {
@@ -71,7 +71,7 @@ local talentData = {
 				},
 				[6] = {
 					label = "Den of Nalorakk",
-					talentString = "CgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgGDzMmZ2WmZmZmhxMzMzMjZWmxYmxsZmZGAAIGLbDsAGwMMBmhNgZGGAAgZGGzywYwYA",
+					talentString = "CgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgGDjxMzmZmZmZmZMzMzMzMzDsMjxMjZzMzMAAQMW2GYBMgZYCMDbAzMMAAAzMMmlhxgxA",
 				},
 				[7] = {
 					label = "Murder Row",
@@ -1533,7 +1533,7 @@ local talentData = {
 				},
 				[5] = {
 					label = "Voidscar Arena",
-					talentString = "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAmZmZ2WmHYGDjxsZGw2wAAAzYGzYMMTMzMAAAgZmZaGzMjZbMDAMmBWAbgZYCsZGbGmBYmhB",
+					talentString = "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAegZmZ2WGzYYMmNzYMz2wAAAzYmZmZMMTMmBAAAMzMTGzMzMGzAAjZgFwGYGmAbwmhZAmZYA",
 				},
 				[6] = {
 					label = "Den of Nalorakk",
@@ -1567,7 +1567,7 @@ local talentData = {
 				},
 				[4] = {
 					label = "The Blinding Vale",
-					talentString = "CEcBAAAAAAAAAAAAAAAAAAAAAMMzMbjZGMDzMLzYmZMzGAAAAAAAAmhZGYM1YmZGAAAAMzMjxMzyYmBmZzYwCsMGN2GAzgYDjZwMDgB",
+					talentString = "CEcBAAAAAAAAAAAAAAAAAAAAAMMzMbzMzMWmBzsMDzMmBAAAAAAAAmhHw8AYM1YmZGAAAAMzMjxMzyYmBmZzAjZswCMwMM0ALYMzMDwgB",
 				},
 				[5] = {
 					label = "Voidscar Arena",
