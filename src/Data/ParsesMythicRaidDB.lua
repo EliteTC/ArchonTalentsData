@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.ParsesMythicRaidDB = addonTable.ParsesMythicRaidDB or {}
 
 local talentData = {
-	updated = "2026-10-21 10:18:10",
+	updated = "2026-10-22 10:19:24",
 
 	[1] = {
 		specs = {
@@ -26,6 +26,10 @@ local talentData = {
 				[5] = {
 					label = "Vashnik the Malignant",
 					talentString = "CcEAAAAAAAAAAAAAAAAAAAAAAgZmZmFzYmZGAAAghphZGzMWmZmZGMmZAAAAAMWmZgJMW2GYBMgZYCMD2AzMM2GMLzsNAzMAYGGA",
+				},
+				[6] = {
+					label = "Sszorak",
+					talentString = "CcEAAAAAAAAAAAAAAAAAAAAAAAzMzsMzMmZGAAAghphZGzMbmZmZGmxMDAAAAgZWmZAhxy2ALgBMDTgZwGYmhhBWmZZAmZAwMMA",
 				},
 			},
 			[72] = {
@@ -122,6 +126,10 @@ local talentData = {
 					label = "Vashnik the Malignant",
 					talentString = "CYEAAAAAAAAAAAAAAAAAAAAAAAAAAAwoZbbmZWGzMzAAAAAAYmysMDzM2Gz2wMbzYMGDzYhNAMLz2Mzs1AAAALAGAwMMDmxMzGwMzwYYwA",
 				},
+				[6] = {
+					label = "Sszorak",
+					talentString = "CYEAAAAAAAAAAAAAAAAAAAAAAAAAAAwoZbbmZWGzMzAAAAAAYmywwMjtxsNMz2MGjxwMWYDAzysNzMbNAAAwCgBAjZYGMjZmNgZmhxMGMA",
+				},
 			},
 		},
 	},
@@ -144,6 +152,10 @@ local talentData = {
 				[4] = {
 					label = "The Lost Explorers",
 					talentString = "C0PAAAAAAAAAAAAAAAAAAAAAAAMmxwCsAzwQDbAAYGzMzs8AzwMzMjZGMzYmhZGzMzwMzYGzghmBAAAAAAAAzMmZAzsBgZBsNAM",
+				},
+				[6] = {
+					label = "Sszorak",
+					talentString = "C0PAAAAAAAAAAAAAAAAAAAAAAAMmxwCsAzwQDbAAYGGzsMzwMmZMDzMGzMMzYmZGmZGzYGM0MAAAAgZAAAYmZGAzsBMMLgtBgB",
 				},
 			},
 			[254] = {
@@ -256,6 +268,10 @@ local talentData = {
 					label = "Vashnik the Malignant",
 					talentString = "CUQAAAAAAAAAAAAAAAAAAAAAAAgx2MAAAAAwsMGLTMbbjxMDjZmZmZGGbzYGLbzMzMzMjBjZ2GAAAAGMmFzyADYBsMMBmFMDzMAzYA",
 				},
+				[6] = {
+					label = "Sszorak",
+					talentString = "CUQAAAAAAAAAAAAAAAAAAAAAAAgx2MAAAAAwsMGLTMbLjxMjZgZmZGzMbzYGbbzMzMzMjBjZ2GAAAAGMGwYWMMwAzCL0iNMDYmBzYA",
+				},
 			},
 		},
 	},
@@ -297,6 +313,10 @@ local talentData = {
 					label = "Vashnik the Malignant",
 					talentString = "CEQAAAAAAAAAAAAAAAAAAAAAAADAAAAAAYBmZWGzMmZMMDzsMzYGAAAAzYWmBzMzwMMDgZqBwMbYIMmlBYMwiZmZBgZMGjhZGgZmZgB",
 				},
+				[6] = {
+					label = "Sszorak",
+					talentString = "CEQAAAAAAAAAAAAAAAAAAAAAAADAAAAAAYBmZWGzMmZMMDzsMzYGAAAAzYWmBzMzwMMDgZqBwMLYIMmtBYMwiZmZBgZMGjhZGgZmZgB",
+				},
 			},
 			[258] = {
 				[0] = {
@@ -318,6 +338,10 @@ local talentData = {
 				[5] = {
 					label = "Vashnik the Malignant",
 					talentString = "CIQAAAAAAAAAAAAAAAAAAAAAAMMDDAAAAAAAAAAAAmZxMmZbmxMz2MGzw2MzYmZGbIzYxMNAzAMzmZY2MAkxYBAzMgxMzMmNmZbZAmBDA",
+				},
+				[6] = {
+					label = "Sszorak",
+					talentString = "CIQAAAAAAAAAAAAAAAAAAAAAAMMDzAAAAAAAAAAAAwMLmxMbzMGz2MGzw2MzYmZGbMZYxMNAzAMzmZY2MAkxYBAzMgxMzMmNmZbZAmBDA",
 				},
 			},
 		},
@@ -346,6 +370,10 @@ local talentData = {
 					label = "Vashnik the Malignant",
 					talentString = "CoPAAAAAAAAAAAAAAAAAAAAAAwYWmZmxMmZMMLzMz0MLmZMmxAAAAAmZmZmZmZYGjBAjZmZGAAgxsNwAWALDTghFAzYGAAmZAGMA",
 				},
+				[6] = {
+					label = "Sszorak",
+					talentString = "CoPAAAAAAAAAAAAAAAAAAAAAAwYWGzMmxMzMMbzMz0MbGjxMmBAAAAmZmZmZmZYGjZAYMzMzAAAMmtBGwCYZYCMsMAzwAAwMDAMA",
+				},
 			},
 			[251] = {
 				[0] = {
@@ -363,6 +391,10 @@ local talentData = {
 				[5] = {
 					label = "Vashnik the Malignant",
 					talentString = "CsPAAAAAAAAAAAAAAAAAAAAAAMAmZMjxYY2mZmZmZZmZkZMGDzMGMzMzMzMzMDAAAAAAAAAjZbgBsAWGmAjFMzYmZgBghZGgxgB",
+				},
+				[6] = {
+					label = "Sszorak",
+					talentString = "CsPAAAAAAAAAAAAAAAAAAAAAAMAmZMjxYY2mZmZmZzMjmZMGDzMGMzMzMzMzMDAAAAAAAAAjZbgBsAWGmAjFMzYmZgBghZGgZgB",
 				},
 			},
 			[252] = {
@@ -453,6 +485,10 @@ local talentData = {
 					label = "Vashnik the Malignant",
 					talentString = "CgQAAAAAAAAAAAAAAAAAAAAAAAAAAgBAAAAzMzsssNzMDjZGzMYsAbwMW0YbAMDsZGmBbzMmpZbZmhZmZhFzMzYwsMAAAwMzgZGAYwM",
 				},
+				[6] = {
+					label = "Sszorak",
+					talentString = "CgQAAAAAAAAAAAAAAAAAAAAAAAAAAgBAAAAzMzsssNjZGjZGzMDjFYDmxiGbDgZgNzwMMbjxMNbLzMbmxswi5BMjZYWGAAAYmZwMDAMYG",
+				},
 			},
 		},
 	},
@@ -479,6 +515,10 @@ local talentData = {
 				[5] = {
 					label = "Vashnik the Malignant",
 					talentString = "C4DAAAAAAAAAAAAAAAAAAAAAAYGGLzMzswMDamZGAAAGAwMz0sssMDAgNAAAzMDbWmxMLzYMzMzMswMmZmBAYAAAGgZGwMAYYmZA",
+				},
+				[6] = {
+					label = "Sszorak",
+					talentString = "C4DAAAAAAAAAAAAAAAAAAAAAAYGGLzMzswMDamZGAAAGAwMz0sssMDAgNAAgZmZGbWmZmZZGjxMzgFmxMzMAADAAwAMzAmBADzMD",
 				},
 			},
 			[64] = {
@@ -535,6 +575,10 @@ local talentData = {
 					label = "Vashnik the Malignant",
 					talentString = "CoQAAAAAAAAAAAAAAAAAAAAAAsZGmZ0sZmZzMzMLDAAAAAAAYMjhFYgthFaYxYmxysNzMjZAgZGjZmZGAmxMzGAAYMzMjhhlZMgB",
 				},
+				[6] = {
+					label = "Sszorak",
+					talentString = "CoQAAAAAAAAAAAAAAAAAAAAAAwMzMzoZjhZmZmlBAAAAAAAMmxwCMw2wCNsYMzYZWmZmxMAwMjZmxMDwMzYMAAAjZmZMMsMjBMA",
+				},
 			},
 			[267] = {
 				[0] = {
@@ -555,6 +599,16 @@ local talentData = {
 
 	[10] = {
 		specs = {
+			[268] = {
+				[0] = {
+					label = "All Bosses",
+					talentString = "CwQAAAAAAAAAAAAAAAAAAAAAAAAAAgZbzYGPwYWM2GzMjBAAAAAAYZBjwMwMMYGjZmZGzsxMjZWGW2stNbDzCAAsMLTLz2MLDAAAwMsBmZATjBAAMA",
+				},
+				[6] = {
+					label = "Sszorak",
+					talentString = "CwQAAAAAAAAAAAAAAAAAAAAAAAAAAgZbzYGPwYWM2GzMjBAAAAAAYZBjwMwMMYGjZmZGzsxMjZWGW2stNbDzCAAsMLTLz2MLDAAAwMsBmZATjBAAMA",
+				},
+			},
 			[269] = {
 				[0] = {
 					label = "All Bosses",
@@ -597,6 +651,10 @@ local talentData = {
 				[5] = {
 					label = "Vashnik the Malignant",
 					talentString = "C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghx2YZYzixMzyyM2wYGmZZZZmxCzoZMDYwgxsMzMzwsxYwiJAAAAAAYxyMLz2MTAAYADwMgxwYRGzA",
+				},
+				[6] = {
+					label = "Sszorak",
+					talentString = "C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghx2MwmFzYmllZshZmhZWWWmZswQzYGwgBjZZmZmhZbwwsYCAAAAAAWsMzysNzEAAGwAMDYMMWkxMA",
 				},
 			},
 		},
@@ -683,6 +741,10 @@ local talentData = {
 					label = "Vashnik the Malignant",
 					talentString = "CkGAAAAAAAAAAAAAAAAAAAAAAYMmZZmZMzMmthZwsZsNmBAAAAAAAAAALDaWYMNzY4BMLzMzMzyMZGAAAAAAAAAAAAAmtZWa2mZzGjZGYGgmBAYmBgB",
 				},
+				[6] = {
+					label = "Sszorak",
+					talentString = "CkGAAAAAAAAAAAAAAAAAAAAAAYMmZZmZMzMmthZwsZsNmBAAAAAAAAAAbDa2YMNzY4BMLzMzMDTmBAAAAAAAAAAAAgZbmlmtZ2sxYmZwMwoZAAmZAYA",
+				},
 			},
 		},
 	},
@@ -746,6 +808,10 @@ local talentData = {
 					label = "The Lost Explorers",
 					talentString = "CgcBAAAAAAAAAAAAAAAAAAAAAAAWmZmZmZGjxwMAAAAAAALGz2gZAAAAAAAAYGzw8AzMzMzMzMMz2MjxmsAAADwMmZmtZmpZZmlZmxYGA",
 				},
+				[6] = {
+					label = "Sszorak",
+					talentString = "CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmxwMAAAAAAAegxsNYGAAAAAAAAmxMMzMzMjZmZGzsYGjFtswMzMzWbzMzAYGDAAPwYwwA",
+				},
 			},
 		},
 	},
@@ -804,6 +870,10 @@ local talentData = {
 				[2] = {
 					label = "Nek'zali the Soulcoiler",
 					talentString = "CEcBAAAAAAAAAAAAAAAAAAAAAMMzMbzMzgZYmZZGzMjZ2AAAAAgBAAzMDMYM1YmZGAAAAMjZmxMzyYmBmhBGzYhFYgZYoBWwYMzAAD",
+				},
+				[6] = {
+					label = "Sszorak",
+					talentString = "CEcBAAAAAAAAAAAAAAAAAAAAAMMzMbzMzgZYmZZGzMjZ2AAAAAAAAYmhxMYM1YmZGAAAAMjZMmZWGzMwMMwYGLsADMDDNwCGjZGAYA",
 				},
 			},
 		},

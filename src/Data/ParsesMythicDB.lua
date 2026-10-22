@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.ParsesMythicDB = addonTable.ParsesMythicDB or {}
 
 local talentData = {
-	updated = "2026-10-21 10:18:10",
+	updated = "2026-10-22 10:19:24",
 
 	[1] = {
 		specs = {
@@ -220,7 +220,7 @@ local talentData = {
 				},
 				[4] = {
 					label = "The Blinding Vale",
-					talentString = "CYEAAAAAAAAAAAAAAAAAAAAAAAAAAAwoZbbmZWGzMzAAAAAAYmyYGmZsNmthZ2mxYMGmxCbAYWmtZmZrBAAAWAMAYMDDMjZmNgZmhxMGMA",
+					talentString = "CYEAAAAAAAAAAAAAAAAAAAAAAAAAAAwoZbbmZWGzMzAAAAAAYmyYGmZsNmthZ2mxYMGmxGbAAAMz02Mz2MAgNADAGzwAzYmZDLzghxMGMA",
 				},
 				[5] = {
 					label = "Voidscar Arena",
@@ -930,7 +930,7 @@ local talentData = {
 				},
 				[3] = {
 					label = "Ruby Life Pools",
-					talentString = "CAEAAAAAAAAAAAAAAAAAAAAAAwsZsMzMzysZmJmZmZmZmZmFzMzYGzAAAAzMzssMz0GAAsBAAA2AYbbMjZwsNMmhNAAAmZDYGYAzghB",
+					talentString = "CAEAAAAAAAAAAAAAAAAAAAAAAMmNjlZmZWGmZiZmZmZmZmZxMzMmxMAAAwMzMLLzMtBAAbAAAgNA22GzYGMbDjZYDAAgZ2AmBGwMYYA",
 				},
 				[4] = {
 					label = "The Blinding Vale",
@@ -1329,7 +1329,7 @@ local talentData = {
 				},
 				[4] = {
 					label = "The Blinding Vale",
-					talentString = "CkGAAAAAAAAAAAAAAAAAAAAAAMMmZbmZMzMmthHgxsYmNbzAAAAAAAAAAgtBNbzw0MMwsYmZmZxkHYAAAAAYAAGAAAAAY2mZrZbmNbMzMDmZWANDAwMDADA",
+					talentString = "CkGAAAAAAAAAAAAAAAAAAAAAAMMmZZMjZmxsNMMmFmNbzAAAAAAAAAAglBNbzw0MMwsYmZmZxkHYAAAAAYAAmBAAAAAz2MbNbzsZjZmZwMzGoZAAmZAYA",
 				},
 				[5] = {
 					label = "Voidscar Arena",
