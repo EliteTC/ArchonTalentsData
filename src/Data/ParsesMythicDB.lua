@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.ParsesMythicDB = addonTable.ParsesMythicDB or {}
 
 local talentData = {
-	updated = "2026-11-03 12:54:17",
+	updated = "2026-11-04 13:05:55",
 
 	[1] = {
 		specs = {
@@ -370,7 +370,7 @@ local talentData = {
 				},
 				[1] = {
 					label = "Kings' Rest",
-					talentString = "CMQAAAAAAAAAAAAAAAAAAAAAAMzsMmFjlZAAAAAgZbw2MAAAAAg22mZmhZGjlZmZWmZZmxYmZMYGzMzYAWMbDMgFwywEYYxgZGgBD",
+					talentString = "CMQAAAAAAAAAAAAAAAAAAAAAAYmlZmFDGAAAAAYWGsNDAAAAAotlxMzMzMGLzMzsNzyMz8AmxMjxwMjxAYgFYGjGzCgtBsZAwMzYMA",
 				},
 				[2] = {
 					label = "Temple of Sethraliss",
@@ -386,7 +386,7 @@ local talentData = {
 				},
 				[5] = {
 					label = "Voidscar Arena",
-					talentString = "CMQAAAAAAAAAAAAAAAAAAAAAAYmlZmFDGAAAAAYWGsNDAAAAAotlZmZmZmxYZmZmtZWmZmHwMmZMGmZMGADsAzY0Y2AsNgNAwMzYMA",
+					talentString = "CMQAAAAAAAAAAAAAAAAAAAAAAYmlZmFDGAAAAAYWGsNDAAAAAotlxMzMzMGLzMzsNzyMz8AmxMjxwMjxAYgFYGjGzCgtBsZAwMzYMA",
 				},
 				[6] = {
 					label = "Den of Nalorakk",
@@ -1307,7 +1307,7 @@ local talentData = {
 				},
 				[8] = {
 					label = "Altar of Fangs",
-					talentString = "CgGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgZmxsYmZMziZxMPwMLLDMbGGNRzMzyMzMzsMmBAAAAAAjNDYZbmBjZZAMBAAAshZGgFjhBsYBgZGAD",
+					talentString = "CgGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgZmxsYmZMziZxMmZZZgZzwoJamZWmZmZmlxMAAAAAAMjNDYZbmBjZZAMBAAAshZGgFjhBsYBgZGAD",
 				},
 			},
 			[105] = {
