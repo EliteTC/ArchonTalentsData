@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.ParsesMythicRaidDB = addonTable.ParsesMythicRaidDB or {}
 
 local talentData = {
-	updated = "2026-10-28 11:26:06",
+	updated = "2026-11-06 13:02:48",
 
 	[1] = {
 		specs = {
@@ -30,6 +30,10 @@ local talentData = {
 				[6] = {
 					label = "Sszorak",
 					talentString = "CcEAAAAAAAAAAAAAAAAAAAAAAAzMzsMzMmZGAAAghphZGzMbmZmZGmxMDAAAAgZWmZAhxy2ALgBMDTgZwGYmhhBWmZZAmZAwMMA",
+				},
+				[7] = {
+					label = "The Twin Fangs",
+					talentString = "CcEAAAAAAAAAAAAAAAAAAAAAAgZmZmFzYmZGAAAghphxYmZbZmZmZYGzMAAAAAmZZmBmwYZbgFwAmhJwMYDMzwwALzsNAzMAYGGA",
 				},
 			},
 			[72] = {
@@ -85,6 +89,10 @@ local talentData = {
 				[5] = {
 					label = "Vashnik the Malignant",
 					talentString = "CEEAAAAAAAAAAAAAAAAAAAAAAAAAALAwMAAw2MzMjZMzYxYmZYZwMLmpJGGzMDjZLDADYYDsxyMmZZ2mZmtGAAAgFAYzwYGzwMAAmZYGjhB",
+				},
+				[7] = {
+					label = "The Twin Fangs",
+					talentString = "CEEAAAAAAAAAAAAAAAAAAAAAAAAAALAwMAAw2MzMjZMzYxYmZYZwMLmpJGGzMDjZLDADYYDsxyMmZZ2mZmtGAAAgFAGbGGzwwMAAmZYGjhB",
 				},
 			},
 			[66] = {
@@ -183,6 +191,10 @@ local talentData = {
 					label = "Vashnik the Malignant",
 					talentString = "C4PAAAAAAAAAAAAAAAAAAAAAAwCMwMGNWGAzgNAAAAAAAAwMmZmBjZmxMYMNjBz222MzMzMzMzgZWGmBAAYmZmxAYGbgBYjZ2mxA",
 				},
+				[7] = {
+					label = "The Twin Fangs",
+					talentString = "C4PAAAAAAAAAAAAAAAAAAAAAAwCMwMGNWGAzgNAAAAAAAAwMmZmZZbGzMjZwYaGDmtttZmZmZmZmBzsMMzAAAGzMAwM2ADwGzsNjB",
+				},
 			},
 			[255] = {
 				[0] = {
@@ -231,6 +243,10 @@ local talentData = {
 				[5] = {
 					label = "Vashnik the Malignant",
 					talentString = "CMQAAAAAAAAAAAAAAAAAAAAAAYmlxsZwAAAAAAzygtZAAAAAAttNzMzMzMGLzMzsNzyMz8AjxMjxYmZmxAYgFYGjGzGgtBsZAwMzgB",
+				},
+				[7] = {
+					label = "The Twin Fangs",
+					talentString = "CMQAAAAAAAAAAAAAAAAAAAAAAYmlZmFDAAAAAAzygtZAAAAAAttMzMzMzMGbzMzsNzyMzYMmZMGzMjxAsZWGYALglhJwwixmZGgxYA",
 				},
 			},
 			[260] = {
@@ -378,6 +394,10 @@ local talentData = {
 					label = "Sszorak",
 					talentString = "CoPAAAAAAAAAAAAAAAAAAAAAAwYWGzMmxMzMMbzMz0MbGjxMmBAAAAmZmZmZmZYGjZAYMzMzAAAMmtBGwCYZYCMsMAzwAAwMDAMA",
 				},
+				[7] = {
+					label = "The Twin Fangs",
+					talentString = "CoPAAAAAAAAAAAAAAAAAAAAAAwYWmZmxMmZMMLzMz0MbmZMmxAAAAAmZmZmZmZYGjBAjZmZGAAADMwMW0YZDw2A2AMjZAAAzMwwA",
+				},
 			},
 			[251] = {
 				[0] = {
@@ -403,6 +423,10 @@ local talentData = {
 				[6] = {
 					label = "Sszorak",
 					talentString = "CsPAAAAAAAAAAAAAAAAAAAAAAMAmZMjxYY2mZmZmZzMjmZMGDzMGMzMzMzMzMDAAAAAAAAAjZbgBsAWGmAjFMzYmZgBghZGgZgB",
+				},
+				[7] = {
+					label = "The Twin Fangs",
+					talentString = "CsPAAAAAAAAAAAAAAAAAAAAAAMAzMjZMDDz2MzMzMLzMjMjxYYmxgZmZmZmZmZAAAAAAAAAYMbDMgFwywEYsgZGzMDMAMMzAwgB",
 				},
 			},
 			[252] = {
@@ -501,6 +525,10 @@ local talentData = {
 					label = "Sszorak",
 					talentString = "CgQAAAAAAAAAAAAAAAAAAAAAAAAAAgBAAAAzMzsssNjZGjZGzMDjFYDmxiGbDgZgNzwMMbjxMNbLzMbmxswi5BMjZYWGAAAYmZwMDAMYG",
 				},
+				[7] = {
+					label = "The Twin Fangs",
+					talentString = "CgQAAAAAAAAAAAAAAAAAAAAAAAAAAgBAAAAzMzsssNjZGjZGzMYsAbwMW0YbAMDsZGmhZbMmpZbZmhZMbsYmZmHYwsMAAAwMzgZGAYwM",
+				},
 			},
 		},
 	},
@@ -532,6 +560,10 @@ local talentData = {
 					label = "Sszorak",
 					talentString = "C4DAAAAAAAAAAAAAAAAAAAAAAYGGLzMzswMDamZGAAAGAwMz0sssMDAgNAAgZmZGbWmZmZZGjxMzgFmxMzMAADAAwAMzAmBADzMD",
 				},
+				[7] = {
+					label = "The Twin Fangs",
+					talentString = "C4DAAAAAAAAAAAAAAAAAAAAAAYGGLzMzswMDamxAAAwAAmZmmlllZAAsBAwCMzMsZZGzsMjxMzMzwCzYmZGAgBAAYAmZAzAghZmB",
+				},
 			},
 			[64] = {
 				[0] = {
@@ -549,6 +581,10 @@ local talentData = {
 				[4] = {
 					label = "The Lost Explorers",
 					talentString = "CAEAAAAAAAAAAAAAAAAAAAAAAYGGLzMzsMmZmYmZGzMzMziZmZMjZAAAgZmZWWmZaDAAAAAA2AYbZMzMDmthxMsAAAwMbAzADYGMMA",
+				},
+				[7] = {
+					label = "The Twin Fangs",
+					talentString = "CAEAAAAAAAAAAAAAAAAAAAAAAYGGLzMzsMegZmYmxYGzMziZmZmhZmlZamZZWAAAgFAAYBAAAAgtlxMzMY2mxMzYbBAAAMzgZyYAD8BMA",
 				},
 			},
 		},
@@ -591,6 +627,10 @@ local talentData = {
 					label = "Sszorak",
 					talentString = "CoQAAAAAAAAAAAAAAAAAAAAAAwMzMzoZjhZmZmlBAAAAAAAMmxwCMw2wCNsYMzYZWmZmxMAwMjZmxMDwMzYMAAAjZmZMMsMjBMA",
 				},
+				[7] = {
+					label = "The Twin Fangs",
+					talentString = "CoQAAAAAAAAAAAAAAAAAAAAAAwMmZmpZjxmZGzyAAAAAAAAGzYYBGYbYhGWMmZsMLzMzYGAYmxMzYmBYmZMzAAAMmZmxwwyMGwA",
+				},
 			},
 			[267] = {
 				[0] = {
@@ -614,11 +654,15 @@ local talentData = {
 			[268] = {
 				[0] = {
 					label = "All Bosses",
-					talentString = "CwQAAAAAAAAAAAAAAAAAAAAAAAAAAgZbzYGPwYWM2GzMjBAAAAAAYZBjwMwMMYGjZmZGzsxMjZWGW2stNbDzCAAsMLTLz2MLDAAAwMsBmZATjBAAMA",
+					talentString = "CwQAAAAAAAAAAAAAAAAAAAAAAAAAAwMbbGzYG2mxGmZMAAAAAAAbLwEzMwMMzmZwMzMDz2YMmZ5BYZbsNbDzCAAsBAAAmtZpZmZWYYBgZGmGDAAYA",
 				},
 				[6] = {
 					label = "Sszorak",
 					talentString = "CwQAAAAAAAAAAAAAAAAAAAAAAAAAAgZbzYGPwYWM2GzMjBAAAAAAYZBjwMwMMYGjZmZGzsxMjZWGW2stNbDzCAAsMLTLz2MLDAAAwMsBmZATjBAAMA",
+				},
+				[7] = {
+					label = "The Twin Fangs",
+					talentString = "CwQAAAAAAAAAAAAAAAAAAAAAAAAAAwMbbGzYG2mxGmZMAAAAAAAbLwEzMwMMzmZwMzMDz2YMmZ5BYZbsNbDzCAAsBAAAmtZpZmZWYYBgZGmGDAAYA",
 				},
 			},
 			[269] = {
@@ -641,6 +685,10 @@ local talentData = {
 				[5] = {
 					label = "Vashnik the Malignant",
 					talentString = "C0QAAAAAAAAAAAAAAAAAAAAAAMzYMgxYZmZ2mBAAAAAAAAAAAYZY0MmBMghhZmZGmthZYWmJAgFzsNmxMzMDAgFzsMLjJAAgxAYGgxyMImZmNfA",
+				},
+				[7] = {
+					label = "The Twin Fangs",
+					talentString = "C0QAAAAAAAAAAAAAAAAAAAAAAMzYMgxYZmZ2mBAAAAAAAAAAAYZY0MmhhBMjhZmZGmthZYWegJAgFzsNmxMzMDAgFzsMLjJAAgxAYGgxyAxMzs5DA",
 				},
 			},
 			[270] = {
@@ -694,6 +742,10 @@ local talentData = {
 				[5] = {
 					label = "Vashnik the Malignant",
 					talentString = "CYGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWoMbNjxMDwsYmZmBDzY2mZZsNjZsZWmxYmZGbYYAGgttxGmmZWGAAAAsZmZmZwmhxYAYmBAGA",
+				},
+				[7] = {
+					label = "The Twin Fangs",
+					talentString = "CYGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWoMbNjxMD8AmFmZmZBMMmZZmNzMjNWmZZMmZsghBYstNzgxsNAmAAAAsYmZmZwmxMGzAAYmBGA",
 				},
 			},
 			[103] = {
@@ -765,6 +817,10 @@ local talentData = {
 					label = "Sszorak",
 					talentString = "CkGAAAAAAAAAAAAAAAAAAAAAAYMmZZmZMzMmthZwsZsNmBAAAAAAAAAAbDa2YMNzY4BMLzMzMDTmBAAAAAAAAAAAAgZbmlmtZ2sxYmZwMwoZAAmZAYA",
 				},
+				[7] = {
+					label = "The Twin Fangs",
+					talentString = "CkGAAAAAAAAAAAAAAAAAAAAAAYMmZZmZMzMmthZGGGbjZAAAAAAAAAAw2gmNzYamxAzyMzMzsMTmBAAAAAAAAAAAAgZbmlmtZ2sxYmHYwMANDAwMDADA",
+				},
 			},
 		},
 	},
@@ -832,6 +888,10 @@ local talentData = {
 					label = "Sszorak",
 					talentString = "CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmxwMAAAAAAAegxsNYGAAAAAAAAmxMMzMzMjZmZGzsYGjFtswMzMzWbzMzAYGDAAPwYwwA",
 				},
+				[7] = {
+					label = "The Twin Fangs",
+					talentString = "CgcBAAAAAAAAAAAAAAAAAAAAAAA2mxMzMzYmZGmBAAAAAAgxsNYGAAAAAAAAmxMMzMzMzMzMDzsYGjFZhZmZmt2mZmBwwAAwDMmhxMA",
+				},
 			},
 		},
 	},
@@ -894,6 +954,10 @@ local talentData = {
 				[6] = {
 					label = "Sszorak",
 					talentString = "CEcBAAAAAAAAAAAAAAAAAAAAAMMzMbzMzgZYmZZGzMjZ2AAAAAAAAYmhxMYM1YmZGAAAAMjZMmZWGzMwMMwYGLsADMDDNwCGjZGAYA",
+				},
+				[7] = {
+					label = "The Twin Fangs",
+					talentString = "CEcBAAAAAAAAAAAAAAAAAAAAAMMzMbzMzgZYmZZGzMjZ2AAAAAgBAAmZwMGjpGzMzAAAAAjZmxMzyYmBmhBGzYhFYgZYoBWwYMzAAD",
 				},
 			},
 		},
