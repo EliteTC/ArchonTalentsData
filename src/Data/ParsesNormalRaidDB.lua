@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.ParsesNormalRaidDB = addonTable.ParsesNormalRaidDB or {}
 
 local talentData = {
-	updated = "2026-11-03 12:54:17",
+	updated = "2026-11-08 12:00:28",
 
 	[1] = {
 		specs = {
@@ -976,7 +976,7 @@ local talentData = {
 				},
 				[2] = {
 					label = "Nek'zali the Soulcoiler",
-					talentString = "C8DAAAAAAAAAAAAAAAAAAAAAAYGGLzMzsgZGZmZGAAAGAwMz0sstNDAwmZmx2MzMzYBAAAAAbmZMzAAgZMmZmZMzsNAMzAjxAmhxA",
+					talentString = "C8DAAAAAAAAAAAAAAAAAAAAAAYGGLzMzswMzIzMzAAAwAAmZmmlttZAA2MzM2mZmZGLAAAAAYxMjZAAgZMmZmZMzsMAMzAjxAmhxA",
 				},
 				[3] = {
 					label = "Entombed Sentinels",
