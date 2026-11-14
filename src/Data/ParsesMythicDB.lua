@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.ParsesMythicDB = addonTable.ParsesMythicDB or {}
 
 local talentData = {
-	updated = "2026-11-11 12:48:28",
+	updated = "2026-11-14 12:17:20",
 
 	[1] = {
 		specs = {
@@ -67,7 +67,7 @@ local talentData = {
 				},
 				[5] = {
 					label = "Voidscar Arena",
-					talentString = "CgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgGDzwMzmZmZmZmZMzMzMzYsMjxMzMbmZmBAAixy2ALgBMDTgZYDYmhBAAYmhxsMjxgxA",
+					talentString = "CgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgGDzMzM2Mz8AzYmhZGzYmZmlZmxMzMLDPwMAAQYgFYZxoxMAmFYsAMDmZBAmZAMmhZGzwYA",
 				},
 				[6] = {
 					label = "Den of Nalorakk",
@@ -89,7 +89,7 @@ local talentData = {
 				},
 				[1] = {
 					label = "Kings' Rest",
-					talentString = "CkEAAAAAAAAAAAAAAAAAAAAAA0yAAAjZGzMzMGzmZmlhxY0YGjFzMzMDzYmBAAAALzMAzYAGYDWWMaMDgZBzsBjZmBDAYmBAgZgxA",
+					talentString = "CkEAAAAAAAAAAAAAAAAAAAAAA0yAAAjZmxMzMDzCzsMMGjGzYYxMzMjZYmBAAAALzMAGDwALw2iRjZAMLYmNMzMzMM2AgZGAAmBGD",
 				},
 				[2] = {
 					label = "Temple of Sethraliss",
