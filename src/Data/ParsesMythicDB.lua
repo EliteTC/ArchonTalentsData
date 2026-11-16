@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.ParsesMythicDB = addonTable.ParsesMythicDB or {}
 
 local talentData = {
-	updated = "2026-11-14 12:17:20",
+	updated = "2026-11-16 13:46:46",
 
 	[1] = {
 		specs = {
@@ -1576,6 +1576,10 @@ local talentData = {
 				[6] = {
 					label = "Den of Nalorakk",
 					talentString = "CEcBAAAAAAAAAAAAAAAAAAAAAMMzMbzMzMzyAzsMDzMmBAAAAAAAAmBmZGjpGzMzAAAAAzMjxMzyYmBmZzAjZswCMwMM0ALYMzMDAM",
+				},
+				[7] = {
+					label = "Murder Row",
+					talentString = "CEcBAAAAAAAAAAAAAAAAAAAAAMMzMbzMzgZYmZZGzMjZ2AAAAAAAAYmhxMYM1YmZGAAAAMjZMmZWGzMwMMGsALjRjlBwMI2wYgZGAD",
 				},
 				[8] = {
 					label = "Altar of Fangs",
