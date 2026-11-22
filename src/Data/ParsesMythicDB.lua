@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.ParsesMythicDB = addonTable.ParsesMythicDB or {}
 
 local talentData = {
-	updated = "2026-11-21 13:33:16",
+	updated = "2026-11-22 13:27:33",
 
 	[1] = {
 		specs = {
@@ -658,7 +658,7 @@ local talentData = {
 				},
 				[4] = {
 					label = "The Blinding Vale",
-					talentString = "CsPAAAAAAAAAAAAAAAAAAAAAAMAzMMjZMYWmZmZmZZmZkZMGDzMGMzMzMzMzMDAAAAAAAAAjZbgBsAWGmAjFMzYmZgBghZGgZgB",
+					talentString = "CsPAAAAAAAAAAAAAAAAAAAAAAMAzMMjZAz2MzMzMLzMjMjxYYmxgZmZmZmZmZAAAAAAAAAYMbDMgFwywEYsgZGzMDMAMMzAMzgB",
 				},
 				[5] = {
 					label = "Voidscar Arena",
@@ -1130,7 +1130,7 @@ local talentData = {
 				},
 				[3] = {
 					label = "Ruby Life Pools",
-					talentString = "C0QAAAAAAAAAAAAAAAAAAAAAAMzYAMGbzMz2MAAAAAAAAAAAALDzEmxywAmxwMzMDz2wMMLzEAwiZ2mZGzMzMAA2AgZZWamZmFAMwMDAswAGwA",
+					talentString = "C0QAAAAAAAAAAAAAAAAAAAAAAMzYAMGbzMz2MAAAAAAAAAAAALDzEmhhBMjhZmZGmNMDzyMBAsYmtZmxMzMDAgNAYWmlmZmZBgZgZGAYZMgBM",
 				},
 				[4] = {
 					label = "The Blinding Vale",
