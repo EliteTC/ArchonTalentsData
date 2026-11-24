@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.ParsesHeroicRaidDB = addonTable.ParsesHeroicRaidDB or {}
 
 local talentData = {
-	updated = "2026-11-23 16:08:41",
+	updated = "2026-11-24 15:59:02",
 
 	[1] = {
 		specs = {
@@ -514,7 +514,7 @@ local talentData = {
 				},
 				[7] = {
 					label = "The Twin Fangs",
-					talentString = "CUQAAAAAAAAAAAAAAAAAAAAAAAgx2MAAAAAwsMGLTMbbjxMDDzMzMzw8AbzYGbbzMzMzMjBjZ2GAAAAGMmFzyADYBsMMBmFMDzMAzYA",
+					talentString = "CUQAAAAAAAAAAAAAAAAAAAAAAAgx2MAAAAAwsMGLTMbLjxMjZgZmZGzMbzYGbbzMzMzMjBjZ2GAAAAGMGwYWMMwAzCL0iNMDYmBzYA",
 				},
 				[8] = {
 					label = "The Coiled Altar",
@@ -1081,7 +1081,7 @@ local talentData = {
 				},
 				[6] = {
 					label = "Sszorak",
-					talentString = "CkQAAAAAAAAAAAAAAAAAAAAAAwMmZGNbM2mZGzyAAAmZmlZxMzyYAgx2yADYAzwWghtBAAgZAAAMzMmxMz2YYMzMzMMMzMDAwMwA",
+					talentString = "CkQAAAAAAAAAAAAAAAAAAAAAAwMmZGNbMMzMzsMAAAzMLzyMzsMGAwCMwsY0YGAzCYZAAAYGAAYmBzMjxsZmhZGzMjBzMzAAMDMA",
 				},
 				[7] = {
 					label = "The Twin Fangs",
